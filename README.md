@@ -88,6 +88,7 @@ These instructions are for the [Postman App](getpostman.com), but you can use yo
    | key         | value     |
    | ----------- | --------- |
    | `x-api-key` | `API_KEY` |
+   | `accept-encoding` | `gzip;q=0,deflate,sdch` |
 
 6. Click "Send"
 
