@@ -100,4 +100,4 @@ These instructions are for the [Postman App](getpostman.com), but you can use yo
 | PlanDefinition     | [RC](http://hl7.org/fhir/plandefinition.html#resource) | [XML](http://hl7.org/fhir/plandefinition.xsd) | [JSON](http://hl7.org/fhir/PlanDefinition.schema.json) | [Search](http://hl7.org/fhir/plandefinition.html#search) |
 
 ## 3. Stay Updated
-Since the Zynx Health API is actively being developed, follow this page to keep up-to-date with the changes.
+Since the Zynx Health API is actively being developed, follow this page to keep up-to-date with the changes.# documentation
