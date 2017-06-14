@@ -75,7 +75,7 @@ These instructions are for the [Postman App](getpostman.com), but you can use yo
 4. Click "Params" and add the following key and value parameters (`key:value`):
 
    | Key            | Value Parameters |
-   | -------------- | ---------------- |
+   | :------------- | :--------------- |
    | `_lastUpdated` | `gt2017-03-01`   |
    | `_lastUpdated` | `lt2017-04-05`   |
    | `_format`      | `json`           |
@@ -85,9 +85,9 @@ These instructions are for the [Postman App](getpostman.com), but you can use yo
 5. Click "Headers" and add the following key and value (`key:value`):
 
    | Key         | Value     | Description |
-   | ----------- | --------- | ----------- |
-   | `x-api-key` | `API_KEY` | Key provided by Zynx Health for authentication. |
-   | `accept-encoding` | `gzip;q=0,deflate,sdch` | Disables gzip so Postman will work. |
+   | :---------- | :-------- | :---------- |
+   | `x-api-key` | `API_KEY` | Key provided by Zynx Health for authentication |
+   | `accept-encoding` | `gzip;q=0,deflate,sdch` | Disables gzip so Postman will work |
    
 6. Click "Send"
 
@@ -96,7 +96,7 @@ These instructions are for the [Postman App](getpostman.com), but you can use yo
 
 #### C. More Information
 | Resource Type      |             Resource Content             |                XML Schema                |               JSON Schema                |              Search Params               |
-| ------------------ | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
+| :----------------- | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
 | ActivityDefinition | [RC](http://hl7.org/fhir/activitydefinition.html#resource) | [XML](http://hl7.org/fhir/activitydefinition.xsd) | [JSON](http://hl7.org/fhir/ActivityDefinition.schema.json) | [Search](http://hl7.org/fhir/activitydefinition.html#search) |
 | PlanDefinition     | [RC](http://hl7.org/fhir/plandefinition.html#resource) | [XML](http://hl7.org/fhir/plandefinition.xsd) | [JSON](http://hl7.org/fhir/PlanDefinition.schema.json) | [Search](http://hl7.org/fhir/plandefinition.html#search) |
 <br>
