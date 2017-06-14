@@ -91,7 +91,7 @@ These instructions are for the [Postman App](getpostman.com), but you can use yo
 
 6. Click "Send"
 
-![alt text](https://build.cb.zynx.com:8088/zynxhealth-caas/api-documentation/raw/master/img/postman.png)
+![alt text](./img/postman.png)
 
 ### C. More Information
 | Resource Type      |             Resource Content             |                XML Schema                |               JSON Schema                |              Search Params               |
