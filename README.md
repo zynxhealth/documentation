@@ -73,7 +73,7 @@ These instructions are for the [Postman App](getpostman.com), but you can use yo
 
 3. Enter this endpoint: `https://api.cb.zynx.com/dev-v0/fhir-a/baseDstu3/PlanDefinition`
 
-4. Click "Params" and add the following key and value parameters (`key:valueparameters`):
+4. Click "Params" and add the following key and value parameters (`key:value`):
 
    | key            | value parameters |
    | -------------- | ---------------- |
@@ -85,10 +85,10 @@ These instructions are for the [Postman App](getpostman.com), but you can use yo
 
 5. Click "Headers" and add the following key and value (`key:value`):
 
-   | key         | value     |
-   | ----------- | --------- |
-   | `x-api-key` | `API_KEY` |
-   | `accept-encoding` | `gzip;q=0,deflate,sdch` |
+   | key         | value     | description |
+   | ----------- | --------- | ----------- |
+   | `x-api-key` | `API_KEY` | Key provided by Zynx Health for authentication. |
+   | `accept-encoding` | `gzip;q=0,deflate,sdch` | Disables gzip so Postman will work. |
 
 6. Click "Send"
 
@@ -101,4 +101,4 @@ These instructions are for the [Postman App](getpostman.com), but you can use yo
 | PlanDefinition     | [RC](http://hl7.org/fhir/plandefinition.html#resource) | [XML](http://hl7.org/fhir/plandefinition.xsd) | [JSON](http://hl7.org/fhir/PlanDefinition.schema.json) | [Search](http://hl7.org/fhir/plandefinition.html#search) |
 
 ## 3. Stay Updated
-Since the Zynx Health API is actively being developed, follow this page to keep up-to-date with the changes.# documentation
+Since the Zynx Health API is actively being developed, follow this page to keep up-to-date with the changes.
