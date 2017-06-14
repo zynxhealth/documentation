@@ -102,5 +102,3 @@ These instructions are for the [Postman App](getpostman.com), but you can use yo
 
 ## 3. Stay Updated
 Since the Zynx Health API is actively being developed, follow this page to keep up-to-date with the changes.
-
-[Please ignore: testing]
