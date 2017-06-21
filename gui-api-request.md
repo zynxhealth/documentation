@@ -30,6 +30,6 @@ These instructions are for the [Postman App](https://www.getpostman.com), but yo
 
 <br>
 
-> **NOTE:** If you get an error, there are no problems with the Zynx SSL certificate. Enable the Interceptor on the top tool bar and retry.
+> **NOTE:** If you get an error, there are no problems with the Zynx SSL certificate. Enable the Interceptor on the top tool bar, also make sure you have the correct header for gzip in step 6 and retry.
 
 ![error](./img/interceptor_disabled.png)
