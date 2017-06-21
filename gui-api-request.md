@@ -1,10 +1,11 @@
-###### Search for PlanDefinition with Postman GUI REST API tool
+### Search for PlanDefinition with Postman GUI REST API tool
 These instructions are for the [Postman App](https://www.getpostman.com), but you can use your own tool.
 
-1. Launch Postman
-2. Under "New Tab" select the verb GET
-3. Enter this endpoint: `https://api.cb.zynx.com/dev-v0/fhir-a/baseDstu3/PlanDefinition`
-4. Click "Params" and add the following key and value parameters (`key:value`):
+1. Install Postman and [Interceptor](https://www.getpostman.com/docs/capture)
+2. Launch Postman and from the top toolbar enable Interceptor 
+3. Under "New Tab" select the verb GET
+4. Enter this endpoint: `https://api.cb.zynx.com/dev-v0/fhir-a/baseDstu3/PlanDefinition`
+5. Click "Params" and add the following key and value parameters (`key:value`):
 
    | Key            | Value Parameters |
    | :------------- | :--------------- |
@@ -14,13 +15,17 @@ These instructions are for the [Postman App](https://www.getpostman.com), but yo
    | `_pretty`      | `true`           |
    | `_summary`     | `text`           |
    
-5. Click "Headers" and add the following key and value (`key:value`):
+6. Click "Headers" and add the following key and value (`key:value`):
 
    | Key         | Value     | Description |
    | :---------- | :-------- | :---------- |
    | `x-api-key` | `API_KEY` | Key provided by Zynx Health for authentication |
    | `accept-encoding` | `gzip;q=0,deflate,sdch` | Disables gzip so Postman will work |
-   
-6. Click "Send"
+
+7. Click "Send"
+
+#### NOTE: if you get an error like below, there is no problems with the Znyx SSL certificate.
+##### Just enable the Interceptor on the top tool bar and retry.
+![error](./img/interceptor_disabled.png)
 
 ![Postman](./img/postman.png)
