@@ -69,7 +69,8 @@ curl --request GET \
 
 ###### Search for PlanDefinition with Postman GUI REST API tool
 These instructions are for the [Postman App](https://www.getpostman.com), but you can use your own tool.
-Click here [Install Postman](./gui-api-request.md)
+<br>
+Click here [Postman Example](./gui-api-request.md)
 
 <br>
 
