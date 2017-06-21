@@ -15,7 +15,7 @@ The Zynx Health API provides access to Zynx Content in the FHIR standard format.
 ## Getting Started
 
 ### 1. Get your API key
-Each organization will need their own API key. If you haven't done so already, apply for a key by contacting support@zynx.com.
+Each organization will need their own API key. If you haven't done so already, [apply for a key](http://www.zynxhealth.com/news-resources/developer/#apply).
 > Wherever `API_KEY` is referenced below, replace it with the unique key that was emailed to you.
 <br>
 
