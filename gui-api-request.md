@@ -1,5 +1,7 @@
-### Search for PlanDefinition with Postman GUI REST API tool
+## Search for PlanDefinition with Postman GUI REST API tool
 These instructions are for the [Postman App](https://www.getpostman.com), but you can use your own tool.
+
+> Wherever `API_KEY` is referenced below, replace it with the unique key that was emailed to you.
 
 1. Install Postman and [Interceptor](https://www.getpostman.com/docs/capture)
 2. Launch Postman and from the top toolbar enable Interceptor 
@@ -24,8 +26,10 @@ These instructions are for the [Postman App](https://www.getpostman.com), but yo
 
 7. Click "Send"
 
-#### NOTE: if you get an error like below, there is no problems with the Znyx SSL certificate.
-##### Just enable the Interceptor on the top tool bar and retry.
-![error](./img/interceptor_disabled.png)
-
 ![Postman](./img/postman.png)
+
+<br>
+
+> **NOTE:** If you get an error, there are no problems with the Zynx SSL certificate. Enable the Interceptor on the top tool bar and retry.
+
+![error](./img/interceptor_disabled.png)
