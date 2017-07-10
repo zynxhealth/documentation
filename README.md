@@ -54,7 +54,7 @@ curl --request GET \
 <br>
 
 #### B. Search with RESTful API
-For more information about how to search with the RESTful API, [click here](hl7.org/fhir/search.html).
+For more information about how to search with the RESTful API, [click here](https://www.hl7.org/fhir/search.html).
 
 ##### Example Search Requests
 
