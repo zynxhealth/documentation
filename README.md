@@ -57,6 +57,7 @@ curl --request GET \
 For more information about how to search with the RESTful API, [click here](https://www.hl7.org/fhir/search.html).
 
 ##### Example Search Requests
+Detail search examples [click here](./search-examples.md).
 
 > Wherever `API_KEY` is referenced below, replace it with the unique key that was emailed to you.
 
