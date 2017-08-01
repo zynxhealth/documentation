@@ -35,6 +35,7 @@ ZynxOrder Content|Order Set|Estimated September 2017|Requires paid license.
 Heart Failure Case Management|Plan of Care|Available September 30, 2017|Requires paid license.
 ZynxCare Content|Plan of Care|Estimated October 2017|Requires paid license.
 <br>
+
 For a glossary of clinical terms and Zynx product offerings, [click here](./clinical-glossary.md).
 
 ## Getting Started<a id="start"></a>
