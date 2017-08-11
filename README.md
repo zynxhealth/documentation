@@ -26,11 +26,11 @@ The Zynx Health API provides access to Zynx Content in the FHIR standard format.
 <br>
 
 ## Clinical Decision Support Content<a id="CDS"></a>
-**Content**|**Type**|**Status**|**Product**
-:-----|:-----:|:-----:|:-----
-Asthma - Admission to ICU|Order Set|Available Now|Free for approved developers. See developer license agreement for terms.
+**Content**|**Type**|**Status**|**Product**|**ID**
+:-----:|:-----:|:-----:|:-----:|:---:
+Asthma - Admission to ICU|Order Set|Available Now|Free for approved developers. See developer license agreement for terms.|ZynxOS-795
 Heart Failure Home Health|Plan of Care|Available Now|Requires paid license.
-Transition of Care - General|Plan of Care|Available August 1, 2017|Free for approved developers. See developer license agreement for terms.
+Transition of Care - General|Plan of Care|Available August 1, 2017|Free for approved developers. See developer license agreement for terms.|ZynxPOC-TransitionofCare-General-3811
 ZynxOrder Content|Order Set|Estimated September 2017|Requires paid license.
 Heart Failure Case Management|Plan of Care|Available September 30, 2017|Requires paid license.
 ZynxCare Content|Plan of Care|Estimated October 2017|Requires paid license.
