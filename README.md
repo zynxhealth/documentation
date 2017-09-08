@@ -72,7 +72,7 @@ Presently one resource type will be exposed with Zynx content via the RESTful AP
 
 > Wherever `API_KEY` is referenced below, replace it with the unique key that was emailed to you.
 > 
-> Examples for provide for both JSON and XML.  Just update the Accept header.
+> Examples are provided for both JSON and XML.  Just update the Accept header.
 
 ###### Order Sets
 ```
