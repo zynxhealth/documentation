@@ -24,7 +24,9 @@ The Zynx Health API provides access to Zynx Content in the FHIR standard format.
 | 07.17.2017 | Updated Clinical Decision Support Content Schedule |
 | 08.01.2017 | Added Clinical Glossary |
 | 09.06.2017 | Updated for Beta.1 Status* |
-<br> * **We will contact you if you who were previously issued API keys prior to 09.06.2017. The previously issued API keys will continue to work according to the [prior instructions](./archive/20170906/README.md) for a limited time. They will no longer be valid after 9/15/2017.**
+
+<br> 
+* **We will contact you if you who were previously issued API keys prior to 09.06.2017. The previously issued API keys will continue to work according to the [prior instructions](./archive/20170906/README.md) for a limited time. They will no longer be valid after 9/15/2017.**
 <br>
 
 ## Clinical Decision Support Content<a id="CDS"></a>
