@@ -56,6 +56,7 @@ Each organization will need their own API key. If you haven't done so already, [
 ### 2. SMART on FHIR demonstration app using Zynx API.
 
 [Get the code](https://github.com/zynxhealth/api-demo) for the demonstration app.
+<br>
 
 ### 3. Make API Calls<a id="makecalls"></a>
 
