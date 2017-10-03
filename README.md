@@ -53,7 +53,11 @@ Each organization will need their own API key. If you haven't done so already, [
 > Wherever `API_KEY` is referenced below, replace it with the unique key that was emailed to you.
 <br>
 
-### 2. Make API Calls<a id="makecalls"></a>
+### 2. SMART on FHIR demonstration app using Zynx API.
+
+[Get the code](https://github.com/zynxhealth/api-demo) for the demonstration app.
+
+### 3. Make API Calls<a id="makecalls"></a>
 
 #### A. Use [RESTful API](http://hl7.org/fhir/http.html)
 
@@ -113,5 +117,5 @@ For instructions about using the Postman GUI REST API tool, [click here](./gui-a
 | PlanDefinition     | [RC](http://hl7.org/fhir/plandefinition.html#resource) | [XML](http://hl7.org/fhir/plandefinition.xsd) | [JSON](http://hl7.org/fhir/PlanDefinition.schema.json) | [Search](http://hl7.org/fhir/plandefinition.html#search) |
 <br>
 
-### 3. Stay Updated<a id="stayupdated"></a>
+### 4. Stay Updated<a id="stayupdated"></a>
 Since the Zynx Health API is actively being developed, follow this page to keep up-to-date with the changes.
