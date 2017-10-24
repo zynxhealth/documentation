@@ -40,8 +40,8 @@ For a glossary of clinical terms and Zynx product offerings, [click here](./clin
 ### Premium
 **Product**|**Type**|**Status**|**Pricing**
 :-----:|:-----:|:-----:|:-----:
-ZynxOrder<br/>[400+]|Order Set|Estimated September 2017|Requires paid license.
-ZynxCare<br/>[300+]|Plan of Care|Estimated October 2017|Requires paid license.
+ZynxOrder<br/>[400+]|Order Set|Available Now|Requires paid license.
+ZynxCare<br/>[300+]|Plan of Care|Available Now|Requires paid license.
 
 For a glossary of clinical terms and Zynx product offerings, [click here](./clinical-glossary.md).
 <br><br>
