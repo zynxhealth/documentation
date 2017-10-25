@@ -9,13 +9,14 @@ The Zynx Health API provides access to Zynx Content in the FHIR standard format.
 
 1. [What's New](#new)
 2. [Clinical  Decision Support Content](#CDS)
+   1. [Clinical Glossary](./clinical-glossary.md)
 3. [Getting Started](#start)
    1. [Get your API Key](#getkey)
    2. [Make API Calls](#makecalls)
    3. [Stay Updated](#stayupdated)
 <br><br>
 
-## What's New<a id="new"></a>
+## <a id="new"></a>What's New
 
 | Date       | Description     |
 | :--------- | :-------------- |
@@ -24,11 +25,12 @@ The Zynx Health API provides access to Zynx Content in the FHIR standard format.
 | 07.17.2017 | Updated Clinical Decision Support Content Schedule |
 | 08.01.2017 | Added Clinical Glossary |
 | 09.07.2017 | Updated for Beta.1 Status* |
+| 10.25.2017 | Added information for Zynx's Value Set|
 
 <br>* **We will contact you if you who were previously issued API keys prior to 09.07.2017. The previously issued API keys will continue to work according to the [prior instructions](./archive/20170907/README.md) for a limited time. They will no longer be valid after 9/20/2017.**
 <br>
 
-## Clinical Decision Support Content<a id="CDS"></a>
+## <a id="CDS"></a>Clinical Decision Support Content
 ### Early Access
 **Content**|**Type**|**Status**|**Pricing**|**ID**
 :-----:|:-----:|:-----:|:-----:|:---:
@@ -46,9 +48,9 @@ ZynxCare<br/>[300+]|Plan of Care|Available Now|Requires paid license.
 For a glossary of clinical terms and Zynx product offerings, [click here](./clinical-glossary.md).
 <br><br>
 
-## Getting Started<a id="start"></a>
+## <a id="start"></a>Getting Started
 
-### 1. Get your API Key<a id="getkey"></a>
+### <a id="getkey"></a>1. Get your API Key
 Each organization will need their own API key. If you haven't done so already, [apply for a key](http://www.zynxhealth.com/news-resources/developer/#apply).
 > Wherever `API_KEY` is referenced below, replace it with the unique key that was emailed to you.
 <br>
@@ -58,7 +60,7 @@ Each organization will need their own API key. If you haven't done so already, [
 [Get the code](https://github.com/zynxhealth/api-demo) for the demonstration app.
 <br>
 
-### 3. Make API Calls<a id="makecalls"></a>
+### <a id="makecalls"></a>3. Make API Calls
 
 #### A. Use [RESTful API](http://hl7.org/fhir/http.html)
 
@@ -116,7 +118,19 @@ For instructions about using the Postman GUI REST API tool, [click here](./gui-a
 | Resource Type      |             Resource Content             |                XML Schema                |               JSON Schema                |              Search Params               |
 | :----------------- | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
 | PlanDefinition     | [RC](http://hl7.org/fhir/plandefinition.html#resource) | [XML](http://hl7.org/fhir/plandefinition.xsd) | [JSON](http://hl7.org/fhir/PlanDefinition.schema.json) | [Search](http://hl7.org/fhir/plandefinition.html#search) |
-<br>
 
-### 4. Stay Updated<a id="stayupdated"></a>
+###### Zynx's Value Set for Content Item Types
+| Text or Display Value   | Code Value    |   Explanation |
+| :---------------- | :-----------: | :---------- |
+| Section       | 2             | A category used to organize order items ([view full explanation](https://github.com/zynxhealth/documentation/blob/master/clinical-glossary.md#section))|
+| Orderable (Med)  | 3          | Drug names that can be expressed as medication names or dispensable products ([view full explanation](https://github.com/zynxhealth/documentation/blob/master/clinical-glossary.md#medication))|
+| Reminder | 4          | An evidence-based note to the clinician at the point of care ([view full explanation](https://github.com/zynxhealth/documentation/blob/master/clinical-glossary.md#reminder))|
+|Orderable | 5| Non-medication items that can be ordered by a clinician (e.g. nursing orders, laboratory tests, radiology, etc) ([view full explanation](https://github.com/zynxhealth/documentation/blob/master/clinical-glossary.md#orderable))|
+|Problem|8| A condition experienced by a patient that can be treated in a clinical care setting ([view full explanation](https://github.com/zynxhealth/documentation/blob/master/clinical-glossary.md#problem))|
+|Outcome|10| Measurable patient-centered conditions/states, behaviors, or perceptions in response to interdisciplinary interventions ([view full explanation](https://github.com/zynxhealth/documentation/blob/master/clinical-glossary.md#outcome))|
+|Activity|12|A specific action that the interdisciplinary care team carries out to address a patient problem ([view full explanation](https://github.com/zynxhealth/documentation/blob/master/clinical-glossary.md#activity))|
+|Activitylet|15|Further description or clarification of key concepts for an activity in a plan of care.
+
+
+### <a id="stayupdated"></a>4. Stay Updated
 Since the Zynx Health API is actively being developed, follow this page to keep up-to-date with the changes.
