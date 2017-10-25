@@ -15,7 +15,10 @@
 
 #### Order Set–specific Definitions
 
-**medications**<br>
+<a id="orderable"></a>**orderable**<br>
+In Zynx evidence and order sets, these are non-medication items that can be ordered by a clinician at the point of care. Examples of non-medication orderables include nursing orders, laboratory tests, radiology, consults, diagnositc tests, and consults.
+
+<a id="medication"></a>**orderable (meds)**<br>
 In Zynx evidence and order sets, these are drug names that can be expressed as medication names (consisting of the generic active ingredient or brand name alone) or dispensable products (consisting of the active ingredient or brand name in conjunction with the strength and formulation).
 
 **order detail**<br>
@@ -23,10 +26,10 @@ Further description or clarification of key concepts for an activity in a plan o
 
 #### Plans of Care–specific Definitions
 
-**activity**<br>
+<a id="activity"></a>**activity**<br>
 A specific action that the interdisciplinary care team carries out to address a patient problem. Within a ZynxCare plan of care, each problem is associated with one or more activities that are grouped under the intervention section. Activities are organized into the following categories: Assessments, Communication, Education, and Treatments and Procedures.
 
-**expected outcome**<br>
+<a id="outcome"></a>**expected outcome**<br>
 Measurable patient-centered conditions/states, behaviors, or perceptions in response to interdisciplinary interventions. Expected outcomes can be assessed by the interdisciplinary care team at any point in time and are used to indicate whether a goal has been met or progress has been made in resolving a problem. In a plan of care, each problem has at least one expected outcome grouped under the Goal section.
 
 **goal**<br>
@@ -35,7 +38,7 @@ A subject heading that organizes expected outcomes in a plan of care.
 **intervention**<br>
 A subject heading used to organize activities in a plan of care.
 
-**problem**<br>
+<a id="problem"></a>**problem**<br>
 A condition experienced by a patient that can be corrected or ameliorated in a clinical care setting. Problems may be acute or chronic in nature, or may represent a functional or organizational risk. Problems may be actual or potential and may span one or more episodes of care. ZynxCare provides the basis for assessing, planning, and evaluating the care of patients with the most common problems that members of an interdisciplinary care team manage.
 
 **treatments and procedures**<br>
@@ -53,10 +56,10 @@ A process or outcome that addresses healthcare quality and safety performance. M
 *	Centers for Medicare & Medicaid Services
 *	The Joint Commission
 
-**section**<br>
+<a id="section"></a>**section**<br>
 A category used to organize order items in an order set or plan of care. For example, Zynx Health standard order sets use the following sections: Condition, Vital Signs, Activity, Nursing Orders, Patient/Caregiver Education, Respiratory, Diet, IV Fluids, Medications, Blood Bank, Laboratory, Radiology, Diagnostic Tests, Specialty, Consults, and Noncategorized. Sections may contain subsections and sub-subsections. Each plan of care offered by Zynx Health addresses a specific patient problem. Plans of care include a Goal section (containing Expected Outcomes) and an Intervention section. The Intervention section contains subsections (ie, Reminders, Activities, Checklist Details).
 
-**reminder**<br>
+<a id="reminder"></a>**reminder**<br>
 Information included in an order set or plan of care that serves as an evidence-based note to the clinician at the point of care. A reminder is included in the order set or plan of care when the clinical evidence satisfies topic inclusion but it cannot be directly translated into an order item or plan of care activity. Reminder items are created only for topics that are presented in the evidence.
 
 For example, a topic regarding the use of a prediction rule to guide triage decisions for patients with community-acquired pneumonia cannot be translated into an order item, but an order set reminder item can serve as a timely evidence-based reminder to the physician at the point of care.
