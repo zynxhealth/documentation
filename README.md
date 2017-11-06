@@ -32,7 +32,7 @@ The Zynx Health API provides access to Zynx Content in the FHIR standard format.
 API Additions and Changes:
 
 * The API now implements the PlanDefinition resource (previously there were separate order-sets and plans-of-care resources)
-	* The type is specified within the PlanDefition as documented [here](http://build.fhir.org/plandefinition-definitions.html#PlanDefinition.type)
+	* The type is specified within the PlanDefinition as documented [here](http://build.fhir.org/plandefinition-definitions.html#PlanDefinition.type)
 * Limited [search on focus and venue](./search.md) have been added. Currently requires the usage of the Ids for the [focus](focus_id.md) and [venue](venue_id.md).
 
 PlanDefinition Content Additions:
@@ -41,14 +41,14 @@ PlanDefinition Content Additions:
 
 Known Minor Issues:
 
-* Copyright symbol is not encoded properly, however its in the copyright element so its still clear that it is a copyright.
-* Paging URL in Bundle not currently corect, it excludes PlanDefinition resource name. Paging not functional.
+* Copyright symbol is not encoded properly, however it is in the copyright element so it is still clear that it is a copyright.
+* Paging URL in Bundle not currently correct, it excludes PlanDefinition resource name. Paging not functional.
 
 Future Work NOT in Beta 2
 
 * Expect continued implementation of additional search features in FHIR. Including Paging.
 * Implementation of "metadata" endpoint with CapabilityStatement.
-* Specification of profile for search on focus an venue.
+* Specification of profile for search on focus and venue.
 * We are committed to implementing the applicable portions of the FHIR standard as it relates to our Clinical Content.
 
 ## <a id="CDS"></a>Clinical Decision Support Content
