@@ -8,7 +8,7 @@ The Zynx Health API provides access to Zynx Content in the FHIR standard format.
 ## Table of Contents
 
 1. [What's New](#new)
-2. [Production Release Notes](#prod)
+2. [Beta 2 Release Notes](#beta2)
 3. [Clinical  Decision Support Content](#CDS)
    1. [Clinical Glossary](./clinical-glossary.md)
 4. [Getting Started](#start)
@@ -22,16 +22,34 @@ The Zynx Health API provides access to Zynx Content in the FHIR standard format.
 | Date       | Description     |
 | :--------- | :-------------- |
 | 10.25.2017 | Added information for Zynx's Value Set|
-| 10.27.2017 | [Beta 2 Release](./archive/20180103/README.md#beta2) |
-| 01.03.2018 | Production Release* |
+| 10.27.2017 | Beta 2 Release* |
 
 <br>* **You will be contacted if you who were previously issued API keys for beta 1. The previously issued API keys will continue to work according to the [prior instructions](./archive/20171027/README.md) for a limited time. Beta 1 will no longer be available after 11/3/2017.**
 <br>
 
-## <a id="prod"></a>Production Release Notes
+## <a id="beta2"></a>Beta 2 Release Notes
 
+API Additions and Changes:
 
-<br>
+* The API now implements the PlanDefinition resource (previously there were separate order-sets and plans-of-care resources)
+	* The type is specified within the PlanDefinition as documented [here](http://build.fhir.org/plandefinition-definitions.html#PlanDefinition.type)
+* Limited [search on focus and venue](./search.md) have been added. Currently requires the usage of the Ids for the [focus](focus_id.md) and [venue](venue_id.md).
+
+PlanDefinition Content Additions:
+
+* The PlanDefinitions now contain performance measure information associated to actions.
+
+Known Minor Issues:
+
+* Copyright symbol is not encoded properly, however it is in the copyright element so it is still clear that it is a copyright.
+* Paging URL in Bundle not currently correct, it excludes PlanDefinition resource name. Paging not functional.
+
+Future Work NOT in Beta 2
+
+* Expect continued implementation of additional search features in FHIR. Including Paging.
+* Implementation of "metadata" endpoint with CapabilityStatement.
+* Specification of profile for search on focus and venue.
+* We are committed to implementing the applicable portions of the FHIR standard as it relates to our Clinical Content.
 
 ## <a id="CDS"></a>Clinical Decision Support Content
 ### Early Access
