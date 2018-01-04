@@ -8,6 +8,7 @@ The Zynx Health API provides access to Zynx Content in the FHIR standard format.
 ## Table of Contents
 
 1. [What's New](#new)
+2. [Production Release Notes](#prod)
 2. [Beta 2 Release Notes](#beta2)
 3. [Clinical  Decision Support Content](#CDS)
    1. [Clinical Glossary](./clinical-glossary.md)
@@ -23,8 +24,13 @@ The Zynx Health API provides access to Zynx Content in the FHIR standard format.
 | :--------- | :-------------- |
 | 10.25.2017 | Added information for Zynx's Value Set|
 | 10.27.2017 | Beta 2 Release* |
+| 10.27.2017 | Beta 2 Release* |
 
 <br>* **You will be contacted if you who were previously issued API keys for beta 1. The previously issued API keys will continue to work according to the [prior instructions](./archive/20171027/README.md) for a limited time. Beta 1 will no longer be available after 11/3/2017.**
+<br>
+## <a id="prod"></a>Production Release Notes
+
+
 <br>
 
 ## <a id="beta2"></a>Beta 2 Release Notes
