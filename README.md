@@ -31,10 +31,10 @@ The Zynx Health API provides access to Zynx Content in the FHIR standard format.
 ## <a id="prod"></a>Production Release Notes
 API Additions and Changes:
 * The API now implements the PlanDefinition resource
-* PlanDefinition resource ID is unique to the production environment
-* Use that unique Id search in the followings:
-   * Search by Zynx Content Id to retrieve resource bundle 
-   * Search by resouce Id from the response and cached that resource Id for faster retrieval of the PlanDefinition
+* PlanDefinition resource Id is unique to the production environment
+* Use that unique Id search as in the followings:
+   * Search by Zynx Content Id to retrieve resource bundles 
+   * Search by resouce Id from the response and cache that unique resource Id for faster retrieval of the PlanDefinition
    * ([Examples are provided here](search_id.md))
 
 Additional API search parameters available on:
@@ -46,7 +46,7 @@ Known Minor Issues:
    * Use https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/?identifier=http://www.zynxhealth.com/codings/as/id%2C795
    * NOT https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/?identifier=http://www.zynxhealth.com/codings/as/id|2C795
 * Search by lastUpdate with gt & eq will not return the total # of records
-* Search known to be slower when using resource ID
+* Search known to be slower when using resource Id
 
 <br>
 
@@ -69,7 +69,7 @@ For a glossary of clinical terms and Zynx product offerings, [click here](./clin
 :-----:|:-----:|:-----:|:-----:
 ZynxOrder<br/>[400+]|Order Set|Available Now|Requires paid license.
 ZynxCare<br/>[300+]|Plan of Care|Available Now|Requires paid license.
-Chronic Condition Management| Chronic Condition Management |3 CCM conditions available: Heart Failure, COPD, Diabetes|Requires paid license 
+Chronic Condition Management| Chronic Care Management |3 CCM conditions available: Heart Failure, COPD, Diabetes|Requires paid license 
 
 For a glossary of clinical terms and Zynx product offerings, [click here](./clinical-glossary.md).
 <br><br>
