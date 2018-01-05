@@ -31,8 +31,8 @@ The Zynx Health API provides access to Zynx Content in the FHIR standard format.
 ## <a id="prod"></a>Production Release Notes
 API Additions and Changes:
 * The API now implements the PlanDefinition resource
-* PlanDefinition resource Id is unique to the production environment
-* Use that unique Id search as in the followings:
+* Each PlanDefinition resource Id is unique to the production environment
+* Get access to and use each unique Id through search as follows:
    * Search by Zynx Content Id to retrieve resource bundles 
    * Search by resouce Id from the response and cache that unique resource Id for faster retrieval of the PlanDefinition
    * ([Examples are provided here](search_id.md))
