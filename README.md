@@ -31,28 +31,35 @@ The Zynx Health API provides access to Zynx Content in the FHIR standard format.
 ## <a id="prod"></a>Production Release Notes
 API Additions and Changes:
 * The API now implements the PlanDefinition resource
-* Content retrieval using content ID which is unique to the production environment
-* Content can be searched by Zynx ID and required to cache the static FHIR UUID
-* Search by FHIR focus and/or venue which corresponds to topic and care setting
+* PlanDefinition resource ID is unique to the production environment
+* Use that unique Id search in the followings:
+      * Search by Zynx Content Id to retrieve resource bundle 
+      * Search by resouce Id from the response and cached that resource Id for faster retrieval of the PlanDefinition
+      *([Examples are provided here](search_id.md))
 
 Additional API search parameters available on:
 * lastUpdated, date, description, effectivePeriod, identifier, jurisdiction, name, publisher, status, title, topic, url, version
+* FHIR focus and/or venue which corresponds to topic and care setting 
 
 Known Minor Issues:
-* Search by idendifier with the url containing "|" will return a 400 error
+* Search by idendifier with the url containing "|" will not be supported and use encoded value instead.
+   * Use https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/?identifier=http://www.zynxhealth.com/codings/as/id%2C795
+   * NOT https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/?identifier=http://www.zynxhealth.com/codings/as/id|2C795
 * Search by lastUpdate with gt & eq will not return the total # of records
+* Search known to be slower when using resource ID
 
 <br>
+[Conformance Information](conformance.md)
 
 ## <a id="CDS"></a>Clinical Decision Support Content
+Order set and plan of care content should have Zynx evidence links, custom evidence links, performance measures and key clinical process information embedded. Users without license to ZynxEvidence will not be able to access actual evidence summary pages. Users without access to AuthorSpace will not be able to access actual evidence pages.
+
 ### Early Access
 **Content**|**Type**|**Status**|**Pricing**|**ID**
 :-----:|:-----:|:-----:|:-----:|:---:
 Asthma - Admission to ICU|Order Set|Available Now|Free for approved developers. See developer license agreement for terms.|c1d06f95-c9f4-436d-ae8b-4de9c141867b
 Transition of Care - General|Plan of Care|Available Now|Free for approved developers. See developer license agreement for terms.|6d1b044e-17ae-4b72-9e26-f62e187e4e4b
-Chronic Condition Management| CCM |3 CCM conditions available: Heart Failure, COPD, Diabetes| | 
 <br>
-Order set and plan of care content should have Zynx evidence links, custom evidence links, performance measures and key clinical process information embedded. Users without license to ZynxEvidence will not be able to access actual evidence summary pages. Users without access to AuthorSpace will not be able to access actual evidence pages.
 
 For a glossary of clinical terms and Zynx product offerings, [click here](./clinical-glossary.md).
 
@@ -61,6 +68,7 @@ For a glossary of clinical terms and Zynx product offerings, [click here](./clin
 :-----:|:-----:|:-----:|:-----:
 ZynxOrder<br/>[400+]|Order Set|Available Now|Requires paid license.
 ZynxCare<br/>[300+]|Plan of Care|Available Now|Requires paid license.
+Chronic Condition Management| Chronic Condition Management |3 CCM conditions available: Heart Failure, COPD, Diabetes|Requires paid license 
 
 For a glossary of clinical terms and Zynx product offerings, [click here](./clinical-glossary.md).
 <br><br>
@@ -82,9 +90,9 @@ Each organization will need their own API key. If you haven't done so already, [
 
 | Field | Description                              | Acceptable Value(s)                      |
 | :---- | :--------------------------------------- | :--------------------------------------- |
-| base  | Zynx Health API [Service Base URL](http://hl7.org/fhir/http.html#general) | `https://api-gw-beta2.cb.zynx.com/t/zynx.com/connect/1.0.0/` |
+| base  | Zynx Health API [Service Base URL](http://hl7.org/fhir/http.html#general) | `https://api.zynx.com/t/zynx.com/connect/1.0.0/` |
 | type  | Resource type                 | `PlanDefinition`    |
-| id    | Logical identity of the resource         | `c1d06f95-c9f4-436d-ae8b-4de9c141867b`                             |
+| id    | Logical identity of the resource         | Example: `c1d06f95-c9f4-436d-ae8b-4de9c141867b`                             |
 
 <br>
 
@@ -103,13 +111,13 @@ curl --request GET \
 --header 'Authorization: Bearer API_KEY' \
 --header 'Accept: application/json' \
 --header 'cache-control: no-cache' \
-https://api-gw-beta2.cb.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/c1d06f95-c9f4-436d-ae8b-4de9c141867b
+https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/c1d06f95-c9f4-436d-ae8b-4de9c141867b
 
 curl --request GET \
 --header 'Authorization: Bearer API_KEY' \
 --header 'Accept: application/xml' \
 --header 'cache-control: no-cache' \
-https://api-gw-beta2.cb.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/c1d06f95-c9f4-436d-ae8b-4de9c141867b
+https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/c1d06f95-c9f4-436d-ae8b-4de9c141867b
 ```
 ###### Plans of Care
 ```
@@ -117,13 +125,13 @@ curl --request GET \
 --header 'Authorization: Bearer API_KEY' \
 --header 'Accept: application/json' \
 --header 'cache-control: no-cache' \
-https://api-gw-beta2.cb.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/6d1b044e-17ae-4b72-9e26-f62e187e4e4b
+https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/6d1b044e-17ae-4b72-9e26-f62e187e4e4b
 
 curl --request GET \
 --header 'Authorization: Bearer API_KEY' \
 --header 'Accept: application/xml' \
 --header 'cache-control: no-cache' \
-https://api-gw-beta2.cb.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/6d1b044e-17ae-4b72-9e26-f62e187e4e4b
+https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/6d1b044e-17ae-4b72-9e26-f62e187e4e4b
 ```
 
 ###### Postman GUI REST API tool
