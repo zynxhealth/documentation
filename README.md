@@ -33,9 +33,9 @@ API Additions and Changes:
 * The API now implements the PlanDefinition resource
 * PlanDefinition resource ID is unique to the production environment
 * Use that unique Id search in the followings:
-      * Search by Zynx Content Id to retrieve resource bundle 
-      * Search by resouce Id from the response and cached that resource Id for faster retrieval of the PlanDefinition
-      *([Examples are provided here](search_id.md))
+   * Search by Zynx Content Id to retrieve resource bundle 
+   * Search by resouce Id from the response and cached that resource Id for faster retrieval of the PlanDefinition
+   * ([Examples are provided here](search_id.md))
 
 Additional API search parameters available on:
 * lastUpdated, date, description, effectivePeriod, identifier, jurisdiction, name, publisher, status, title, topic, url, version
@@ -49,6 +49,7 @@ Known Minor Issues:
 * Search known to be slower when using resource ID
 
 <br>
+
 [Conformance Information](conformance.md)
 
 ## <a id="CDS"></a>Clinical Decision Support Content
