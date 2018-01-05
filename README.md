@@ -29,7 +29,18 @@ The Zynx Health API provides access to Zynx Content in the FHIR standard format.
 <br>
 
 ## <a id="prod"></a>Production Release Notes
+API Additions and Changes:
+* The API now implements the PlanDefinition resource
+* Content retrieval using content ID which is unique to the production environment
+* Content can be searched by Zynx ID and required to cache the static FHIR UUID
+* Search by FHIR focus and/or venue which corresponds to topic and care setting
 
+Additional API search parameters available on:
+* lastUpdated, date, description, effectivePeriod, identifier, jurisdiction, name, publisher, status, title, topic, url, version
+
+Known Minor Issues:
+* Search by idendifier with the url containing "|" will return a 400 error
+* Search by lastUpdate with gt & eq will not return the total # of records
 
 <br>
 
@@ -39,6 +50,9 @@ The Zynx Health API provides access to Zynx Content in the FHIR standard format.
 :-----:|:-----:|:-----:|:-----:|:---:
 Asthma - Admission to ICU|Order Set|Available Now|Free for approved developers. See developer license agreement for terms.|c1d06f95-c9f4-436d-ae8b-4de9c141867b
 Transition of Care - General|Plan of Care|Available Now|Free for approved developers. See developer license agreement for terms.|6d1b044e-17ae-4b72-9e26-f62e187e4e4b
+Chronic Condition Management| CCM |3 CCM conditions available: Heart Failure, COPD, Diabetes| | 
+<br>
+Order set and plan of care content should have Zynx evidence links, custom evidence links, performance measures and key clinical process information embedded. Users without license to ZynxEvidence will not be able to access actual evidence summary pages. Users without access to AuthorSpace will not be able to access actual evidence pages.
 
 For a glossary of clinical terms and Zynx product offerings, [click here](./clinical-glossary.md).
 
