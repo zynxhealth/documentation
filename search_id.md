@@ -1,4 +1,4 @@
-## FHIR Search Parameter by Zynx content ID example:
+## FHIR Search Parameter by Zynx content ID examples:
 
 Search parameter name: | Description 
  --- | --- 
