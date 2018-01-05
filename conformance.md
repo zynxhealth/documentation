@@ -20,7 +20,6 @@ Search | Page Count 2 | if _ count has the value 0, this shall be treated the sa
 Search | Server Conformance | In order to allow the client to be confident about what search parameters were used as criteria by the server, the server SHALL return the parameters that were actually used to process the search. Applications processing search results SHALL check these returned values where necessary. For example, if the server did not support some of the filters specified in the search, a client might manually apply those filters to the retrieved result set, display a warning message to the user or take some other action. | Yes
 <br>
 
-
 ### Future Supported:
 
 **Category** | **Name** | **Description** | **Supported** | 
