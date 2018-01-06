@@ -54,13 +54,13 @@ Known Minor Issues:
 [Conformance Information](conformance.md)
 
 ## <a id="CDS"></a>Clinical Decision Support Content
-Order set and plan of care content should have Zynx evidence links, custom evidence links, performance measures and key clinical process information embedded. Users without license to ZynxEvidence will not be able to access actual evidence summary pages. Users without access to AuthorSpace will not be able to access actual evidence pages.
+Order set and plan of care content have Zynx evidence links, custom evidence links, performance measures and key clinical process information embedded. Users without license to ZynxEvidence will not be able to access actual evidence pages. 
 
-### Early Access
-**Content**|**Type**|**Status**|**Pricing**|**ID**
-:-----:|:-----:|:-----:|:-----:|:---:
-Asthma - Admission to ICU|Order Set|Available Now|Free for approved developers. See developer license agreement for terms.|c1d06f95-c9f4-436d-ae8b-4de9c141867b
-Transition of Care - General|Plan of Care|Available Now|Free for approved developers. See developer license agreement for terms.|6d1b044e-17ae-4b72-9e26-f62e187e4e4b
+### Trial
+**Content**|**Type**|**Status**|**Pricing**|**Zynx Content ID**
+:-----:|:-----:|:-----:|:-----:|:-----:
+Asthma - Admission to ICU|Order Set|Available Now|Free for approved developers. See developer license agreement for terms.| 795
+Transition of Care - General|Plan of Care|Available Now|Free for approved developers. See developer license agreement for terms.| 3811
 <br>
 
 For a glossary of clinical terms and Zynx product offerings, [click here](./clinical-glossary.md).
@@ -70,7 +70,7 @@ For a glossary of clinical terms and Zynx product offerings, [click here](./clin
 :-----:|:-----:|:-----:|:-----:
 ZynxOrder<br/>[400+]|Order Set|Available Now|Requires paid license.
 ZynxCare<br/>[300+]|Plan of Care|Available Now|Requires paid license.
-Chronic Condition Management| Chronic Care Management |3 CCM conditions available: Heart Failure, COPD, Diabetes|Requires paid license 
+Chronic Condition Management(CCM)| CCM |3 CCM conditions available: Heart Failure, COPD, Diabetes|Requires paid license. 
 
 For a glossary of clinical terms and Zynx product offerings, [click here](./clinical-glossary.md).
 <br><br>
