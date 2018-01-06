@@ -17,8 +17,7 @@ Search | Modifiers | Server SHALL reject any search request that contains a modi
 Search | date | Technically, this is any of the date, dateTime, and instant data types; e.g. Any degree of precision can be provided, but it SHALL be populated from the left (e.g. can't specify a month without a year), except that the minutes SHALL be present if an hour is present, and you SHOULD provide a time zone if the time part is present. Note: Time can consist of hours and minutes with no seconds, unlike the XML Schema dateTime type. Some user agents may escape the : characters in the URL, and servers SHALL handle this correctly. | Yes |
 Search | Page Count 1 | The parameter _ count is defined as a hint to the server regarding how many resources should be returned in a single page. Servers SHALL NOT return more resources than requested, even if they don't support paging, but are allowed to return less than the client requested. | Yes |
 Search | Page Count 2 | if _ count has the value 0, this shall be treated the same as _ summary=count: the server resturns a bundle that reports the total number of resources that match in Bundle.total, but with no entries, and no prev/next/last links. | Yes
-Search | Server Conformance | In order to allow the client to be confident about what search parameters were used as criteria by the server, the server SHALL return the parameters that were actually used to process the search. Applications processing search results SHALL check these returned values where necessary. For example, if the server did not support some of the filters specified in the search, a client might manually apply those filters to the retrieved result set, display a warning message to the user or take some other action. | Yes
-<br>
+Search | Server Conformance | In order to allow the client to be confident about what search parameters were used as criteria by the server, the server SHALL return the parameters that were actually used to process the search. Applications processing search results SHALL check these returned values where necessary. For example, if the server did not support some of the filters specified in the search, a client might manually apply those filters to the retrieved result set, display a warning message to the user or take some other action. | Yes |
 
 ### Future Supported:
 
@@ -28,3 +27,16 @@ RESTful API | HTTP Verb “vread” | The returned resource SHALL have an id ele
 RESTful API | history | The return content is a Bundle with type set to history containing the specified version history, sorted with oldest versions last, and including deleted resources. Each entry SHALL minimally contain either a resource which holds the resource as it is at the conclusion of the interaction, or a request with entry.request.method The request provides information about the interaction that occurred to cause the new version, and allows, for instance, a subscriber system to differentiate between create and update interactions. The principal reason a resource might be missing is that the resource was changed by some other channel rather than via the RESTful interface. If the entry.request.method is a PUT or a POST, the entry SHALL contain a resource. | Future |
 RESTful API | history | The updates list can be long, so servers may use paging. If they do, they SHALL use the method described below for breaking the list into pages if appropriate, and maintain the specified _ count across pages. | Future |
 Search | Advanced Search | More advanced search operations are specified by the _ query parameter.  The _ query parameter names a custom search profile that describes a specific query operation. There can only ever be one _ query parameter in a set of search parameters. Servers processing search requests SHALL refuse to process a search request if they do not recognize the _ query parameter value. | |
+
+### Not Supported:
+
+**Category** | **Name** | **Description** | **Supported** | 
+:-----:|:-----:|:-----:|:-----:
+RESTfulAPI | HTTP Verb “update” | | No |
+RESTfulAPI | Managing Resource Contention | | No |
+RESTfulAPI | patch | | No |
+RESTfulAPI | delete | | No |
+RESTfulAPI | create | | No |
+RESTfulAPI | batch/transaction | | No |
+RESTfulAPI | Batch Processing Rules | | No |
+RESTfulAPI | Transaction Processing Rules| | No |
