@@ -493,7 +493,7 @@
 ## List of content Id for Plan of Care
 
 **Content Id**|**Title**
-:-----:|:-----:
+:-----:|:-----
 1324|Patient Problems - Activity Intolerance 
 1326|Patient Problems - Airway Clearance - Ineffective
 1327|Patient Problems - Anxiety
