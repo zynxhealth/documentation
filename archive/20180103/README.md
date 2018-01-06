@@ -8,7 +8,7 @@ The Zynx Health API provides access to Zynx Content in the FHIR standard format.
 ## Table of Contents
 
 1. [What's New](#new)
-2. [Production Release Notes](#prod)
+2. [Beta 2 Release Notes](#beta2)
 3. [Clinical  Decision Support Content](#CDS)
    1. [Clinical Glossary](./clinical-glossary.md)
 4. [Getting Started](#start)
@@ -22,46 +22,41 @@ The Zynx Health API provides access to Zynx Content in the FHIR standard format.
 | Date       | Description     |
 | :--------- | :-------------- |
 | 10.25.2017 | Added information for Zynx's Value Set|
-| 10.27.2017 | [Beta 2 Release](./archive/20180103/README.md#beta2) |
-| 01.03.2018 | Production Release* |
+| 10.27.2017 | Beta 2 Release* |
 
-<br>* **Beta 2 API Keys will continue to work against Beta 2. We will upgrade Beta 2 with production functionality and you can continue to get visibility of new features there first. Trial accounts will be issued for the Beta 2 environment. Production environment is for paying customers at this time. Beta 2 prior instructions found [here](./archive/20180103/README.md#beta2).**
+<br>* **You will be contacted if you who were previously issued API keys for beta 1. The previously issued API keys will continue to work according to the [prior instructions](./archive/20171027/README.md) for a limited time. Beta 1 will no longer be available after 11/3/2017.**
 <br>
 
-## <a id="prod"></a>Production Release Notes
-API Additions and Changes:
-* The API now implements the PlanDefinition resource
-* Each PlanDefinition resource Id is unique to the production environment
-* Get access to and use each unique Id through search as follows:
-   * Search by Zynx Content Id to retrieve resource bundles (Access List of Zynx Content Ids [here](content_id_list.md) )
-   * Search by resouce Id from the response and cache that unique resource Id for faster retrieval of the PlanDefinition
-   * ([Examples are provided here](search_id.md))
+## <a id="beta2"></a>Beta 2 Release Notes
 
-Additional API search parameters available on:
-* lastUpdated, date, description, effectivePeriod, identifier, jurisdiction, name, publisher, status, title, topic, url, version
-* FHIR focus and/or venue which corresponds to topic and care setting 
+API Additions and Changes:
+
+* The API now implements the PlanDefinition resource (previously there were separate order-sets and plans-of-care resources)
+	* The type is specified within the PlanDefinition as documented [here](http://build.fhir.org/plandefinition-definitions.html#PlanDefinition.type)
+* Limited [search on focus and venue](./search.md) have been added. Currently requires the usage of the Ids for the [focus](focus_id.md) and [venue](venue_id.md).
+
+PlanDefinition Content Additions:
+
+* The PlanDefinitions now contain performance measure information associated to actions.
 
 Known Minor Issues:
-* Search by idendifier with the url containing "|" will not be supported and use encoded value instead.
-   * Use `https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/?identifier=http://www.zynxhealth.com/codings/as/id%2C795`
-   * NOT `https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/?identifier=http://www.zynxhealth.com/codings/as/id|2C795`
-* Search by lastUpdate with gt & eq will not return the total # of records
-* Search known to be slower, so normally rely on getting PlanDefinitions by resource Id
-   * Example: `https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/<resource id>`
 
-<br>
+* Copyright symbol is not encoded properly, however it is in the copyright element so it is still clear that it is a copyright.
+* Paging URL in Bundle not currently correct, it excludes PlanDefinition resource name. Paging not functional.
 
-[Conformance Information](conformance.md)
+Future Work NOT in Beta 2
+
+* Expect continued implementation of additional search features in FHIR. Including Paging.
+* Implementation of "metadata" endpoint with CapabilityStatement.
+* Specification of profile for search on focus and venue.
+* We are committed to implementing the applicable portions of the FHIR standard as it relates to our Clinical Content.
 
 ## <a id="CDS"></a>Clinical Decision Support Content
-Order set and plan of care content have Zynx evidence links, custom evidence links, performance measures and key clinical process information embedded. Users without license to ZynxEvidence will not be able to access actual evidence pages. 
-
-### Trial
-**Content**|**Type**|**Status**|**Pricing**|**Zynx Content ID**
-:-----:|:-----:|:-----:|:-----:|:-----:
-Asthma - Admission to ICU|Order Set|Available Now|Free for approved developers. See developer license agreement for terms.| 795
-Transition of Care - General|Plan of Care|Available Now|Free for approved developers. See developer license agreement for terms.| 3811
-<br>
+### Early Access
+**Content**|**Type**|**Status**|**Pricing**|**ID**
+:-----:|:-----:|:-----:|:-----:|:---:
+Asthma - Admission to ICU|Order Set|Available Now|Free for approved developers. See developer license agreement for terms.|c1d06f95-c9f4-436d-ae8b-4de9c141867b
+Transition of Care - General|Plan of Care|Available Now|Free for approved developers. See developer license agreement for terms.|6d1b044e-17ae-4b72-9e26-f62e187e4e4b
 
 For a glossary of clinical terms and Zynx product offerings, [click here](./clinical-glossary.md).
 
@@ -70,7 +65,6 @@ For a glossary of clinical terms and Zynx product offerings, [click here](./clin
 :-----:|:-----:|:-----:|:-----:
 ZynxOrder<br/>[400+]|Order Set|Available Now|Requires paid license.
 ZynxCare<br/>[300+]|Plan of Care|Available Now|Requires paid license.
-Chronic Condition Management(CCM)| CCM |3 CCM conditions available: Heart Failure, COPD, Diabetes|Requires paid license. 
 
 For a glossary of clinical terms and Zynx product offerings, [click here](./clinical-glossary.md).
 <br><br>
@@ -92,9 +86,9 @@ Each organization will need their own API key. If you haven't done so already, [
 
 | Field | Description                              | Acceptable Value(s)                      |
 | :---- | :--------------------------------------- | :--------------------------------------- |
-| base  | Zynx Health API [Service Base URL](http://hl7.org/fhir/http.html#general) | `https://api.zynx.com/t/zynx.com/connect/1.0.0/` |
+| base  | Zynx Health API [Service Base URL](http://hl7.org/fhir/http.html#general) | `https://api-gw-beta2.cb.zynx.com/t/zynx.com/connect/1.0.0/` |
 | type  | Resource type                 | `PlanDefinition`    |
-| id    | Logical identity of the resource         | Example: `c1d06f95-c9f4-436d-ae8b-4de9c141867b`                             |
+| id    | Logical identity of the resource         | `c1d06f95-c9f4-436d-ae8b-4de9c141867b`                             |
 
 <br>
 
@@ -113,13 +107,13 @@ curl --request GET \
 --header 'Authorization: Bearer API_KEY' \
 --header 'Accept: application/json' \
 --header 'cache-control: no-cache' \
-https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/c1d06f95-c9f4-436d-ae8b-4de9c141867b
+https://api-gw-beta2.cb.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/c1d06f95-c9f4-436d-ae8b-4de9c141867b
 
 curl --request GET \
 --header 'Authorization: Bearer API_KEY' \
 --header 'Accept: application/xml' \
 --header 'cache-control: no-cache' \
-https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/c1d06f95-c9f4-436d-ae8b-4de9c141867b
+https://api-gw-beta2.cb.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/c1d06f95-c9f4-436d-ae8b-4de9c141867b
 ```
 ###### Plans of Care
 ```
@@ -127,13 +121,13 @@ curl --request GET \
 --header 'Authorization: Bearer API_KEY' \
 --header 'Accept: application/json' \
 --header 'cache-control: no-cache' \
-https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/6d1b044e-17ae-4b72-9e26-f62e187e4e4b
+https://api-gw-beta2.cb.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/6d1b044e-17ae-4b72-9e26-f62e187e4e4b
 
 curl --request GET \
 --header 'Authorization: Bearer API_KEY' \
 --header 'Accept: application/xml' \
 --header 'cache-control: no-cache' \
-https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/6d1b044e-17ae-4b72-9e26-f62e187e4e4b
+https://api-gw-beta2.cb.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/6d1b044e-17ae-4b72-9e26-f62e187e4e4b
 ```
 
 ###### Postman GUI REST API tool
