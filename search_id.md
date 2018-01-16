@@ -7,7 +7,7 @@ GET Resource by Zynx content **id** | returns all resources | 795 is the Zynx Co
 
 | Example |
 | --- |
-| `https://api.zynx.com/t/zynx.com/connect/1.0.0/P/PlanDefinition?identifier=http://www.zynxhealth.com/codings/as/id%2C795` |
+| `https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/as/id%2C795` |
 <br>
 
 | Response |
