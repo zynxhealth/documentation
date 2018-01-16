@@ -5,7 +5,7 @@ Search parameter name: | Description | Example
 GET Resource by Zynx content **id** | returns all resources | 795 is the Zynx Content ID for our "Asthma - Admission to ICU"
 <br>
 
-| Example |
+| Example, You can use pipe delimiter or "%7C" |
 | --- |
 | `https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/as/id%7C795` |
 <br>
