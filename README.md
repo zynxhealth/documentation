@@ -42,9 +42,6 @@ Additional API search parameters available on:
 * FHIR focus and/or venue which corresponds to topic and care setting 
 
 Known Minor Issues:
-* Search by idendifier with the url containing "|" will not be supported and use encoded value instead.
-   * Use `https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/?identifier=http://www.zynxhealth.com/codings/as/id%2C795`
-   * NOT `https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/?identifier=http://www.zynxhealth.com/codings/as/id|2C795`
 * Search by lastUpdate with gt & eq will not return the total # of records
 * Search known to be slower, so normally rely on getting PlanDefinitions by resource Id
    * Example: `https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/<resource id>`
