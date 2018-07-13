@@ -67,7 +67,7 @@ For a glossary of clinical terms and Zynx product offerings, [click here](./clin
 :-----:|:-----:|:-----:|:-----:
 ZynxOrder<br/>[400+]|Order Set|Available Now|Requires paid license.
 ZynxCare<br/>[300+]|Plan of Care|Available Now|Requires paid license.
-Chronic Condition Management (CCM)| CCM |14 CCM conditions available: Heart Failure, COPD, Diabetes, Osteoarthritis, Hypertension, Obesity, Post-Stroke, Coronary Artery Disease, Pain, Rhuematoid Arthritis, Chronic Kidney Disease, Cancer Care, Opioid Dependence, Dementia Disease|Requires paid license. 
+Chronic Condition Management (CCM)| CCM |14 CCM conditions available: Heart Failure, COPD, Diabetes, and others|Requires paid license. 
 
 For a glossary of clinical terms and Zynx product offerings, [click here](./clinical-glossary.md).
 <br><br>
