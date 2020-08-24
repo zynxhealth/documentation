@@ -21,12 +21,7 @@ The Zynx Health API provides access to Zynx Content in the FHIR standard format.
 
 | Date       | Description     |
 | :--------- | :-------------- |
-| 10.25.2017 | Added information for Zynx's Value Set|
-| 10.27.2017 | [Beta 2 Release](./archive/20180103/README.md#beta2) |
 | 06.22.2020 | Production Release* |
-
-<br>* **Beta 2 API is being retired completely. It is being replaced by UAT which has production functionality. New Keys will need to be requested for those who had on Beta 2.**
-<br>
 
 ## <a id="prod"></a>Production Release Notes
 API Additions and Changes:
