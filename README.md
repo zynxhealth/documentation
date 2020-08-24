@@ -34,7 +34,7 @@ API Additions and Changes:
 * Each PlanDefinition resource Id is unique to the production environment
 * Get access to and use each unique Id through search as follows:
    * Search by Zynx Content Id to retrieve resource bundles (Access List of Zynx Content Ids [here](content_id_list.md) )
-   * Search by resouce Id from the response and cache that unique resource Id for faster retrieval of the PlanDefinition
+   * Search by resource Id from the response and cache that unique resource Id for faster retrieval of the PlanDefinition
    * ([Examples are provided here](search_id.md))
 
 Additional API search parameters available on:
