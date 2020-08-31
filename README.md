@@ -135,8 +135,7 @@ For instructions about using the Postman GUI REST API tool, [click here](./gui-a
 #### C. More Information
 | Resource Type      |             Resource Content             |                XML Schema                |               JSON Schema                |              Search Params               |
 | :----------------- | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
-| PlanDefinition     | [RC](http://hl7.org/fhir/plandefinition.html#resource) | [XML](http://hl7.org/fhir/plandefinition.xsd) | [JSON](http://hl7.org/fhir/PlanDefinition.schema.json) | [Search](http://hl7.org/fhir/plandefinition.html#search) |
-
+| PlanDefinition     | [RC](http://hl7.org/fhir/plandefinition.html#resource) | [XML](http://hl7.org/fhir/plandefinition.xsd) | [JSON](http://hl7.org/fhir/plandefinition.schema.json.html) | [Search](http://hl7.org/fhir/plandefinition.html#search) |
 ###### Zynx's Value Set for Content Item Types
 | Text or Display Value   | Code Value    |   Explanation |
 | :---------------- | :-----------: | :---------- |
