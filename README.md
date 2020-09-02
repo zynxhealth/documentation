@@ -63,7 +63,7 @@ For a glossary of clinical terms and Zynx product offerings, [click here](./clin
 ZynxOrder<br/>[400+]|Order Set|Available Now|Requires paid license.
 ZynxCare<br/>[300+]|Plan of Care|Available Now|Requires paid license.
 ZynxCare Extended<br/> [100+]| Plan of Care |Available Now|Requires paid license.
-ZynxCare for Chronic Conditions<br/> [25]| CCM |CCM conditions available: Heart Failure, COPD, Diabetes, and others|Requires paid license. 
+ZynxCare for Chronic Conditions<br/> [25]| CCM |Available Now|Requires paid license. 
 ZynxCare for Home Health<br/> [50+]| Plan of Care |Available Now|Requires paid license.
 ZynxCare for Rehabilitation<br/> [50+]| Plan of Care |Available Now|Requires paid license. 
 
