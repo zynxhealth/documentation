@@ -74,6 +74,18 @@ A piece of meta-information that can be associated with an order set or plan of 
 **ZynxCare**<br>
 ZynxCare offers knowledge for nurses and allied health professionals (eg, physical therapists, occupational therapists, respiratory therapists, nutritionists, social workers) in the form of evidence-based synopses linked to customizable plans of care. The content contained in ZynxCare provides the basis for assessing, planning, and evaluating the care of patients with the most common problems that members of the interdisciplinary care team manage.
 
+**ZynxCare Extended**<br>
+ZynxCare Extended gives nurses and allied health professionals in skilled nursing and long-term acute care settings access to evidence-based, interdisciplinary plans of care to better help manage the individual care needs of a patient.
+
+**ZynxCare for Chronic Conditions**<br>
+ZynxCare for Chronic Conditions helps care managers assess patient needs by developing individualized care plans using clinical logic and role-based designations for inventions to manage ongoing care needed for non-acute, chronic conditions
+
+**ZynxCare for Home Health**<br>
+ZynxCare for Home Health gives nurses and allied health professionals conducting home health visits evidence-based activities embedded into the care plan, promoting and delivering consistency of care across the care team.
+
+**ZynxCare for Rehibilitation**<br>
+ZynxCare for Rehabilitation offers interdisciplinary plans of care for patients undergoing rehabilitation for selected medical, neurological, and musculoskeletal conditions. These plans of care aim to provide clinical care guidance for  both the inpatient and outpatient rehabilitation care team based on the latest available evidence and experience-based interventions. 
+
 **ZynxEvidence**<br>
 ZynxEvidence is a comprehensive source for evidence-based research, guidelines, and hospital performance measures. It serves as an in-depth reference source for evidence-based quality improvement and can be used to impact the key drivers of clinical outcomes and costs in your organization.
 
