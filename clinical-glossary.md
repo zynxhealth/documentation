@@ -72,7 +72,7 @@ A piece of meta-information that can be associated with an order set or plan of 
 ### Zynx Product Offerings
 
 **ZynxCare**<br>
-ZynxCare offers knowledge for nurses and allied health professionals (eg, physical therapists, occupational therapists, respiratory therapists, nutritionists, social workers) in the form of evidence-based synopses linked to customizable plans of care. The content contained in ZynxCare provides the basis for assessing, planning, and evaluating the care of patients with the most common problems that members of the interdisciplinary care team manage.
+ZynxCare offers knowledge for nurses and allied health professionals (e.g., physical therapists, occupational therapists, respiratory therapists, nutritionists, social workers) in the form of evidence-based synopses linked to customizable plans of care. The content contained in ZynxCare provides the basis for assessing, planning, and evaluating the care of patients with the most common problems that members of the interdisciplinary care team manage in acute care settings.
 
 **ZynxCare Extended**<br>
 ZynxCare Extended offers nurses and allied health professionals in skilled nursing and long-term acute care settings evidence-based, interdisciplinary plans of care to better help manage the individual care needs of a patient.
