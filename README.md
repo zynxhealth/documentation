@@ -25,8 +25,8 @@ The Zynx Health API provides access to Zynx Content in the FHIR standard format.
 
 ## <a id="prod"></a>Production Release Notes
 Content Additions – last updated Q2, 2020<br>
-         ·  ZynxCare for Chronic Conditions <br>
-            •  Common Problems containing 9 plans of care<br>
+   ·  ZynxCare for Chronic Conditions <br>
+   <tab> •  Common Problems containing 9 plans of care<br>
 <br> 
 Content Updates – last updated Q2, 2020<br>
    ·  ZynxCare<br> 
