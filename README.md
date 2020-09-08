@@ -24,22 +24,17 @@ The Zynx Health API provides access to Zynx Content in the FHIR standard format.
 | 06.22.2020 | Production Release* |
 
 ## <a id="prod"></a>Production Release Notes
-API Additions and Changes:
-* The API now implements the PlanDefinition resource
-* Each PlanDefinition resource Id is unique to the production environment
-* Get access to and use each unique Id through search as follows:
-   * Search by Zynx Content Id to retrieve resource bundles.
-   * Search by resource Id from the response and cache that unique resource Id for faster retrieval of the PlanDefinition
-   * ([Examples are provided here](search_id.md))
-
-Additional API search parameters available on:
-* lastUpdated, date, description, effectivePeriod, identifier, jurisdiction, name, publisher, status, title, topic, url, version
-* FHIR focus and/or venue which corresponds to topic and care setting 
-
-Known Minor Issues:
-* Search by lastUpdate with gt & eq will not return the total # of records
-* Search known to be slower, so normally rely on getting PlanDefinitions by resource Id
-   * Example: `https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/<resource id>`
+Content Additions – last updated Q2, 2020
+         ·  ZynxCare for Chronic Conditions 
+            •  Common Problems containing 9 plans of care
+ 
+Content Updates – last updated Q2, 2020
+   ·  ZynxCare 
+   ·  ZynxCare Extended
+   ·  ZynxCare for Chronic Conditions
+   ·  ZynxCare for Home Health
+   ·  ZynxCare for Rehabilitation 
+   ·  ZynxOrder Order Sets 
 
 <br>
 
