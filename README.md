@@ -32,7 +32,8 @@ The Zynx Health API provides access to Zynx Content in the FHIR standard format.
    ·  New content update containing 11 plans of care<br>
    <br>
 •  ZynxOrder Order Sets<br>
-   ·  New content update containing 5 order sets<br>   
+   ·  New content update containing 5 order sets<br>
+   <br>  
 ### Content Updates – Last updated Q3, 2020<br>
 •  ZynxCare<br> 
 •  ZynxCare Extended<br>
