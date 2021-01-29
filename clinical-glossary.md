@@ -83,7 +83,7 @@ ZynxCare for Chronic Conditions helps care managers assess patient needs by deve
 **ZynxCare for Home Health**<br>
 ZynxCare for Home Health gives nurses and allied health professionals conducting home health visits evidence-based, interdisciplinary plans of care, to better help manage the individual care needs of a patient.
 
-**ZynxCare for Rehibilitation**<br>
+**ZynxCare for Rehabilitation**<br>
 ZynxCare for Rehabilitation offers interdisciplinary plans of care for patients undergoing rehabilitation for selected medical and surgical conditions. These plans of care aim to provide clinical care guidance for both the inpatient and outpatient rehabilitation care team based on the latest and best available evidence.
 
 **ZynxEvidence**<br>
