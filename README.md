@@ -111,13 +111,13 @@ curl --request GET \
 --header 'Authorization: Bearer API_KEY' \
 --header 'Accept: application/json' \
 --header 'cache-control: no-cache' \
-https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/c1d06f95-c9f4-436d-ae8b-4de9c141867b
+https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/c6afff10-6cbf-4a19-b012-5344bfbf8080
 
 curl --request GET \
 --header 'Authorization: Bearer API_KEY' \
 --header 'Accept: application/xml' \
 --header 'cache-control: no-cache' \
-https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/c1d06f95-c9f4-436d-ae8b-4de9c141867b
+https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/c6afff10-6cbf-4a19-b012-5344bfbf8080
 ```
 ###### Plans of Care
 ```
@@ -125,13 +125,13 @@ curl --request GET \
 --header 'Authorization: Bearer API_KEY' \
 --header 'Accept: application/json' \
 --header 'cache-control: no-cache' \
-https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/6d1b044e-17ae-4b72-9e26-f62e187e4e4b
+https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/00b6d5ce-ae02-4436-9311-12a238e4acbb
 
 curl --request GET \
 --header 'Authorization: Bearer API_KEY' \
 --header 'Accept: application/xml' \
 --header 'cache-control: no-cache' \
-https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/6d1b044e-17ae-4b72-9e26-f62e187e4e4b
+https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/00b6d5ce-ae02-4436-9311-12a238e4acbb
 ```
 
 ###### Postman GUI REST API tool
