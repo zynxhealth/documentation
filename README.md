@@ -92,7 +92,7 @@ Each organization will need their own API key. If you haven't done so already, [
 | :---- | :--------------------------------------- | :--------------------------------------- |
 | base  | Zynx Health API [Service Base URL](http://hl7.org/fhir/http.html#general) | `https://api.zynx.com/t/zynx.com/connect/1.0.0/` |
 | type  | Resource type                 | `PlanDefinition`    |
-| id    | Logical identity of the resource         | Example: `c1d06f95-c9f4-436d-ae8b-4de9c141867b`                             |
+| id    | Logical identity of the resource         | Example: `c6afff10-6cbf-4a19-b012-5344bfbf8080`                             |
 
 <br>
 
