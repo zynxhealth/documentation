@@ -104,10 +104,10 @@ Presently one resource type will be exposed with Zynx content via the RESTful AP
 > Wherever `API_KEY` is referenced below, replace it with the unique key that was emailed to you.
 > 
 > Examples are provided for both JSON and XML.  Just update the Accept header.
->
-> "https://uat-api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/zynx/contentid%7C" can be used to access a Plan Definition for a given contentId if the Zynx contentId is known.<br/>
-> • Order Set content id 795 "https://uat-api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/zynx/contentid%7C795"
-> • Plan of Care content id 3811 "https://uat-api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/zynx/contentid%7C3811"
+><br>
+"https://uat-api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/zynx/contentid%7C" can be used to access a Plan Definition for a given contentId if the Zynx contentId is known.<br/>
+> • Order Set content id 795 "https://uat-api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/zynx/contentid%7C795"<br>
+> • Plan of Care content id 3811 "https://uat-api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/zynx/contentid%7C3811"<br>
 
 ###### Order Sets
 ```
