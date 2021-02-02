@@ -105,9 +105,9 @@ Presently one resource type will be exposed with Zynx content via the RESTful AP
 > 
 > Examples are provided for both JSON and XML.  Just update the Accept header.
 >
-> "https://uat-api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/zynx/contentid%7C" can be used to access a Plan Definition for a given contentId if the Zynx contentId is known.
-> Order Set content id 795 "https://uat-api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/zynx/contentid%7C795"
-> Plan of Care content id 3811 "https://uat-api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/zynx/contentid%7C3811"
+> "https://uat-api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/zynx/contentid%7C" can be used to access a Plan Definition for a given contentId if the Zynx contentId is known.<br/>
+> • Order Set content id 795 "https://uat-api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/zynx/contentid%7C795"
+> • Plan of Care content id 3811 "https://uat-api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/zynx/contentid%7C3811"
 
 ###### Order Sets
 ```
