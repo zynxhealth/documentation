@@ -105,7 +105,7 @@ Presently one resource type will be exposed with Zynx content via the RESTful AP
 > 
 > Examples are provided for both JSON and XML.  Just update the Accept header.<br>
 > <br>
-> Examples can use "https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/zynx/contentid%7C" to access a Plan Definition for a given contentId if the Zynx contentId is known and accessible.<br/>
+> Examples can use "https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/zynx/contentid%7C<contentId>" to access a Plan Definition for a given contentId if the Zynx contentId is known and accessible.<br/>
 > • Order Set content id 795 "https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/zynx/contentid%7C795"<br>
 > • Plan of Care content id 3811 "https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/zynx/contentid%7C3811"<br>
 >
