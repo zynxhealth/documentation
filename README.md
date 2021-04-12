@@ -99,6 +99,8 @@ Each organization will need their own API key. If you haven't done so already, [
 Presently one resource type will be exposed with Zynx content via the RESTful API of the FHIR workflow module/clinical process:
  - [`PlanDefinition`](http://hl7.org/fhir/plandefinition.html): This resource allows for the definition of various types of plans as a sharable, consumable, and executable artifact. The resource is general enough to support the description of a broad range of clinical artifacts such as clinical decision support rules, order sets and protocols.
 
+#### B. Content Examples
+
 ##### Example Requests
 
 > Wherever `API_KEY` is referenced below, replace it with the unique key that was emailed to you.
@@ -137,6 +139,29 @@ curl --request GET \
 --header 'cache-control: no-cache' \
 https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/00b6d5ce-ae02-4436-9311-12a238e4acbb
 ```
+
+###### Plans of Care
+
+```
+####### Example Request
+curl --request GET \
+--header 'Authorization: Bearer API_KEY' \
+--header 'Accept: application/json' \
+--header 'cache-control: no-cache' \
+https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/<resourceId>
+
+curl --request GET \
+--header 'Authorization: Bearer API_KEY' \
+--header 'Accept: application/xml' \
+--header 'cache-control: no-cache' \
+https://api.zynx.com/t/zynx.com/connect/1.0.0/<resourceId>
+
+####### Example Request
+
+   
+```
+   
+
 
 ###### Postman GUI REST API tool
 For instructions about using the Postman GUI REST API tool, [click here](./gui-api-request.md).
