@@ -144,9 +144,9 @@ curl --request GET \
 https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/00b6d5ce-ae02-4436-9311-12a238e4acbb
 ```
 
-###### Custom Plan of Care
+###### Custom Plan of Care <br> 
 
-Example Request
+##### Example Requests
 
 ```
 curl --request GET \
@@ -162,7 +162,7 @@ curl --request GET \
 https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/<resourceId>
 ```
 
-Example Response
+##### Example Response
 
 See the full example FHIR response for the Pain Plan of Care, [click here](./response_custom_plan_of_care.md).<br>  
 
