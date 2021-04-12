@@ -145,7 +145,6 @@ https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/00b6d5ce-ae02-4436-
 ```
 
 ###### Custom Plan of Care
-
 ```
 Example Request
 curl --request GET \
@@ -161,12 +160,8 @@ curl --request GET \
 https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/<resourceId>
 
 Example Response
-[FHIR response for Pain.txt](https://github.com/zynxhealth/documentation/files/6298464/FHIR.response.for.Pain.txt)
-   
+See the full example FHIR response for the Pain Plan of Care "https://github.com/zynxhealth/documentation/files/6298464/FHIR.response.for.Pain.txt".
 ```
- 
-
-
 
 ###### Postman GUI REST API tool
 For instructions about using the Postman GUI REST API tool, [click here](./gui-api-request.md).
