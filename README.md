@@ -164,7 +164,7 @@ https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/<resourceId>
 
 Example Response
 
-See the full example FHIR response for the Pain Plan of Care, [click here](./response_custom_plan_of_care.md).   
+See the full example FHIR response for the Pain Plan of Care, [click here](./response_custom_plan_of_care.md).<br>  
 
 ###### Postman GUI REST API tool
 For instructions about using the Postman GUI REST API tool, [click here](./gui-api-request.md).
