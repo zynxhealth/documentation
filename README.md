@@ -140,10 +140,10 @@ curl --request GET \
 https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/00b6d5ce-ae02-4436-9311-12a238e4acbb
 ```
 
-###### Plans of Care
+###### Custom Plan of Care
 
 ```
-####### Example Request
+Example Request
 curl --request GET \
 --header 'Authorization: Bearer API_KEY' \
 --header 'Accept: application/json' \
@@ -156,8 +156,8 @@ curl --request GET \
 --header 'cache-control: no-cache' \
 https://api.zynx.com/t/zynx.com/connect/1.0.0/<resourceId>
 
-####### Example Request
-
+Example Request
+TBD
    
 ```
    
