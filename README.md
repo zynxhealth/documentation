@@ -110,6 +110,10 @@ Presently one resource type will be exposed with Zynx content via the RESTful AP
 > Examples can use "https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/zynx/contentid%7C<contentId>" to access a Plan Definition for a given contentId if the Zynx contentId is known and accessible.<br/>
 > • Order Set content id 795 "https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/zynx/contentid%7C795"<br>
 > • Plan of Care content id 3811 "https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/zynx/contentid%7C3811"<br>
+> 
+>Examples can use "https://uat-api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/zynx/contentid%7C&_count=50" to access all Zynx content allowed per your given privileges.<br>
+>
+>Examples can use "https://uat-api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/custom/contentid%7C&_count=50" to access all Zynx content allowed per your given privileges.<br>
 >
 ###### Order Sets
 ```
@@ -154,13 +158,14 @@ curl --request GET \
 --header 'Authorization: Bearer API_KEY' \
 --header 'Accept: application/xml' \
 --header 'cache-control: no-cache' \
-https://api.zynx.com/t/zynx.com/connect/1.0.0/<resourceId>
+https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/<resourceId>
 
 Example Request
 TBD
    
 ```
    
+
 
 
 ###### Postman GUI REST API tool
