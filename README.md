@@ -160,7 +160,8 @@ curl --request GET \
 https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/<resourceId>
 
 Example Response
-See the full example FHIR response for the Pain Plan of Care "https://github.com/zynxhealth/documentation/files/6298464/FHIR.response.for.Pain.txt".
+See the full example FHIR response for the Pain Plan of Care 
+"https://github.com/zynxhealth/documentation/files/6298464/FHIR.response.for.Pain.txt".
 ```
 
 ###### Postman GUI REST API tool
