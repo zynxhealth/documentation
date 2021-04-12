@@ -160,8 +160,8 @@ curl --request GET \
 --header 'cache-control: no-cache' \
 https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/<resourceId>
 
-Example Request
-TBD
+Example Response
+[FHIR response for Pain.txt](https://github.com/zynxhealth/documentation/files/6298464/FHIR.response.for.Pain.txt)
    
 ```
    
