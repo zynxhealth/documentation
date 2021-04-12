@@ -147,7 +147,7 @@ https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/00b6d5ce-ae02-4436-
 ###### Custom Plan of Care
 
 ```
-Example Request
+**Example Request**
 curl --request GET \
 --header 'Authorization: Bearer API_KEY' \
 --header 'Accept: application/json' \
@@ -160,11 +160,11 @@ curl --request GET \
 --header 'cache-control: no-cache' \
 https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/<resourceId>
 
-Example Response
+**Example Response**
 [FHIR response for Pain.txt](https://github.com/zynxhealth/documentation/files/6298464/FHIR.response.for.Pain.txt)
    
 ```
-   
+ 
 
 
 
