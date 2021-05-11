@@ -174,6 +174,17 @@ For instructions about using the Postman GUI REST API tool, [click here](./gui-a
 | Resource Type      |             Resource Content             |                XML Schema                |               JSON Schema                |              Search Params               |
 | :----------------- | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
 | PlanDefinition     | [RC](http://hl7.org/fhir/plandefinition.html#resource) | [XML](http://hl7.org/fhir/plandefinition.xsd) | [JSON](http://hl7.org/fhir/plandefinition.schema.json.html) | [Search](http://hl7.org/fhir/plandefinition.html#search) |
+
+###### Featured Parameters
+
+| ([Parameter](http://hl7.org/fhir/search.html#all))     | Description     | Type    | Required   | Accepted Value  | Example   |
+| :--- | :--- | :--- |:--- |:--- | :--- |
+| count  | Returns the resource count specified that are available for the privileges of the token used | ([Number](http://hl7.org/fhir/search.html#number)) | No | 1-200 | \?\_count=50 | 
+| identifier  | Returns content / Plan Definition for given contentId | N\A | No | Zynx contentIds |\_identifier=http://www.zynxhealth.com/codings/id/zynx/ contentid%7C<AuthorSpace contentId> Trial Order Set 795 example: \_identifier=http://www.zynxhealth.com/codings/id/zynx/ contentid%7C795 | 
+| lastUpdated  | Returns resources updated for given date or date range in results | ([Date](http://hl7.org/fhir/search.html#date)) | No | Date Format YYYY-MM-DD|  \?\_lastUpdated=2021-04 returns content updated in a given month \?\_lastUpdated=2021 returns content updated in a given year  \?\_lastUpdated=2021-05-01 returns content updated in a given day  \?\_lastUpdated=gt2021-04 returns content updated after given date specified when ([Prefix](http://hl7.org/fhir/search.html#prefix)) gt is used|  
+| title | Returns a content / Plan Definition resource with specified title | ([String](http://hl7.org/fhir/search.html#string)) | No | Characters |\_title=Asthma - Admission to ICU | 
+| status | The current status of the plan definition | ([Token](http://hl7.org/fhir/search.html#token)) | No | active, or retired| \_status=active or \_status=retired |    
+
 ###### Zynx's Value Set for Content Item Types
 | Text or Display Value   | Code Value    |   Explanation |
 | :---------------- | :-----------: | :---------- |
