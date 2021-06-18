@@ -186,6 +186,8 @@ For instructions about using the Postman GUI REST API tool, [click here](./gui-a
 | status | The current status of the plan definition | ([Token](http://hl7.org/fhir/search.html#token)) | No | active, or retired| \?status=active or \?status=retired |    
 
 ###### Zynx's Value Set for Content Item Types
+[Click here](./content_item_details.md) for detailed funtionality within given content item types.
+   
 | Text or Display Value   | Code Value    |   Explanation |
 | :---------------- | :-----------: | :---------- |
 | Section       | 2             | A category used to organize order items ([view full explanation](https://github.com/zynxhealth/documentation/blob/master/clinical-glossary.md#section))|
