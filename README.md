@@ -86,7 +86,7 @@ Each organization will need their own API key. If you haven't done so already, [
 | :---- | :--------------------------------------- | :--------------------------------------- |
 | base  | Zynx Health API [Service Base URL](http://hl7.org/fhir/http.html#general) | `https://api.zynx.com/t/zynx.com/connect/1.0.0/` |
 | type  | Resource type                 | `PlanDefinition`    |
-| id    | Logical identity of the resource         | Example: `c6afff10-6cbf-4a19-b012-5344bfbf8080`                             |
+| id    | Logical identity of the resource         | Example: `a263fc5f-a8e5-4c15-8505-ad993967677c`                             |
 
 <br>
 
@@ -115,13 +115,13 @@ curl --request GET \
 --header 'Authorization: Bearer API_KEY' \
 --header 'Accept: application/json' \
 --header 'cache-control: no-cache' \
-https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/c6afff10-6cbf-4a19-b012-5344bfbf8080
+https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/a263fc5f-a8e5-4c15-8505-ad993967677c
 
 curl --request GET \
 --header 'Authorization: Bearer API_KEY' \
 --header 'Accept: application/xml' \
 --header 'cache-control: no-cache' \
-https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/c6afff10-6cbf-4a19-b012-5344bfbf8080
+https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/a263fc5f-a8e5-4c15-8505-ad993967677c
 ```
 ###### Plans of Care
 ```
@@ -129,13 +129,13 @@ curl --request GET \
 --header 'Authorization: Bearer API_KEY' \
 --header 'Accept: application/json' \
 --header 'cache-control: no-cache' \
-https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/00b6d5ce-ae02-4436-9311-12a238e4acbb
+https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/8ac80263-4468-48f4-af20-e47157599e7e
 
 curl --request GET \
 --header 'Authorization: Bearer API_KEY' \
 --header 'Accept: application/xml' \
 --header 'cache-control: no-cache' \
-https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/00b6d5ce-ae02-4436-9311-12a238e4acbb
+https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/8ac80263-4468-48f4-af20-e47157599e7e
 ```
 
 ###### Custom Plan of Care <br> 
