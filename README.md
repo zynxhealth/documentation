@@ -105,9 +105,10 @@ Presently one resource type will be exposed with Zynx content via the RESTful AP
 > • Order Set content id 795 "https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/zynx/contentid%7C795"<br>
 > • Plan of Care content id 3811 "https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/zynx/contentid%7C3811"<br>
 > 
->Examples can use "https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/zynx/contentid%7C&_count=50" to access all Zynx content allowed per your given privileges.<br>
+>Examples can use "https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/zynx/contentid%7C&_count=50" to access all Zynx content allowed per your given privileges per token or with Trial token.<br>
+   
 >
->Examples can use "https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/custom/contentid%7C&_count=50" to access all Custom content allowed per your given privileges.<br>
+>Examples can use "https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/custom/contentid%7C&_count=50" to access all Custom content allowed per your given privileges per token.<br>
 >
 ###### Order Sets
 ```
