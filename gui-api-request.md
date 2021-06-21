@@ -8,7 +8,7 @@ These instructions are for the [Postman](https://www.getpostman.com) application
 3. Under "New Tab" select the verb GET
 4. Enter this endpoint:
 ```
-https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/c6afff10-6cbf-4a19-b012-5344bfbf8080
+https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition/a263fc5f-a8e5-4c15-8505-ad993967677c
 ```
 5. Click "Headers" and add the following key and value (`key:value`):
 
