@@ -1,4 +1,4 @@
-## Content Item Details
+## Functionality by Content Item Type
 
 | Text or Display Value   | Code Value    |   Functionality|   Example|
 | :---------------- | :-----------: | :---------- | :---------- |
