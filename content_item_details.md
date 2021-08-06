@@ -8,7 +8,7 @@
 |Orderable (Med)|3|Gold Key\Key Clinical Process| ``` <reason> <coding> <system value="http://www.zynxhealth.com/codings/key-clinical-processes"/> ```|
 |Reminder|4|Gold Key\Key Clinical Process| ``` <reason> <coding> <system value="http://www.zynxhealth.com/codings/key-clinical-processes"/> ```|
 |Orderable|5|Gold Key\Key Clinical Process| ``` <reason> <coding> <system value="http://www.zynxhealth.com/codings/key-clinical-processes"/> ```|
-|Problem|8|| ``` <documentation> <type value="documentation"></type> <display value="additional info text"> </display> </documentation> ```|
+|Problem|8|Additional Info| ``` <documentation> <type value="documentation"></type> <display value="additional info text"> </display> </documentation> ```|
 |Problem|8|Gold Key\Key Clinical Process| ``` <reason> <coding> <system value="http://www.zynxhealth.com/codings/key-clinical-processes"/> ```|
 |Problem|8|Snomed Code Mapping|``` <coding> <system value="http://snomed.info/sct"></system> <code value="370388006"> </code> </coding> ```|
 |Problem|8|Unique Id| ``` <coding> <system value="http://www.zynxhealth.com/codings/problems"> </system><code value="941562.91778"> </code> </coding> ```|
