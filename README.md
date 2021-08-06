@@ -101,9 +101,9 @@ Presently one resource type will be exposed with Zynx content via the RESTful AP
 > 
 > Examples are provided for both JSON and XML.  Just update the Accept header.<br>
 > <br>
-> Examples can use "https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/zynx/contentid%7C<contentId>" to access a Plan Definition for a given contentId if the Zynx contentId is known and accessible.<br/>
-> • Order Set content id 795 "https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/zynx/contentid%7C795"<br>
-> • Plan of Care content id 3811 "https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/zynx/contentid%7C3811"<br>
+> Examples can use "https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/zynx/contentid%7C0:<contentId>" to access a Plan Definition for a given contentId if the Zynx contentId is known and accessible.<br/>
+> • Order Set content id 795 "https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/zynx/contentid%7C0:795"<br>
+> • Plan of Care content id 3811 "https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/zynx/contentid%7C0:3811"<br>
 > 
 >Examples can use "https://api.zynx.com/t/zynx.com/connect/1.0.0/PlanDefinition?identifier=http://www.zynxhealth.com/codings/id/zynx/contentid%7C&_count=50" to access all Zynx content allowed per your given privileges per token or with Trial token.<br>
    
@@ -175,7 +175,7 @@ For instructions about using the Postman GUI REST API tool, [click here](./gui-a
 | ([Parameter](http://hl7.org/fhir/search.html#all))     | Description     | Type    | Required   | Accepted Value  | Example   |
 | :--- | :--- | :--- |:--- |:--- | :--- |
 | count  | Returns the resource count specified that are available for the privileges of the token used | ([Number](http://hl7.org/fhir/search.html#number)) | No | 1-200 | \?\_count=50 | 
-| identifier  | Returns content / Plan Definition for given contentId | N\A | No | Zynx contentIds |```\?identifier=http://www.zynxhealth.com/codings/id/zynx/ contentid%7C<AuthorSpace contentId>``` <br> Trial Order Set 795 example: ```\?identifier=http://www.zynxhealth.com/codings/id/zynx/ contentid%7C795``` | 
+| identifier  | Returns content / Plan Definition for given contentId | N\A | No | Zynx contentIds |```\?identifier=http://www.zynxhealth.com/codings/id/zynx/ contentid%7C0:<AuthorSpace contentId>``` <br> Trial Order Set 795 example: ```\?identifier=http://www.zynxhealth.com/codings/id/zynx/ contentid%7C0:795``` | 
 | lastUpdated  | Returns resources updated for given date or date range in results | ([Date](http://hl7.org/fhir/search.html#date)) | No | Date Format YYYY-MM-DD|  \?\_lastUpdated=2021-04 returns content updated in a given month <br> \?\_lastUpdated=2021 returns content updated in a given year <br>  \?\_lastUpdated=2021-05-01 returns content updated in a given day <br>  \?\_lastUpdated=gt2021-04 returns content updated after given date specified when ([Prefix](http://hl7.org/fhir/search.html#prefix)) gt is used|  
 | title | Returns a content / Plan Definition resource with specified title | ([String](http://hl7.org/fhir/search.html#string)) | No | Characters |\?title=Asthma - Admission to ICU | 
 | status | The current status of the plan definition | ([Token](http://hl7.org/fhir/search.html#token)) | No | active, or retired| \?status=active or \?status=retired |    
