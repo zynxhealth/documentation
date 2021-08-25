@@ -21,7 +21,7 @@ The Zynx Health API provides access to Zynx Content in the FHIR standard format.
 
 | Date       | Description     |
 | :--------- | :-------------- |
-| 7/21.2021 | Production Release* |
+| 7.21.2021 | Production Release* |
 
 ## <a id="prod"></a>Production Release Notes
 ### Content Additions – Last updated Q2, 2021<br>
