@@ -40,8 +40,6 @@ ZynxOrder <br>
 ### Content Updates – Last updated Q3, 2021<br>
 •  ZynxCare<br> 
 •  ZynxCare Extended<br>
-•  ZynxCare for Chronic Conditions<br>
-•  ZynxCare for Home Health<br>
 •  ZynxCare for Rehabilitation <br>
 •  ZynxOrder Order Sets <br>
 <br>
