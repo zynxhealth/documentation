@@ -44,7 +44,7 @@ Order set and plan of care content have Zynx evidence links, custom evidence lin
 :-----:|:-----:|:-----:|:-----:|:-----:
 Asthma - Admission to ICU|Order Set|Available Now|Free for approved developers. See developer license agreement for terms.| 795
 Transition of Care - General|Plan of Care|Available Now|Free for approved developers. See developer license agreement for terms.| 3811
-Opioid Use Disorder|Plan of Care|Available Now|Free for approved developers. See developer license agreement for terms.| CCM13
+Opioid Use Disorder|CCM|Available Now|Free for approved developers. See developer license agreement for terms.| CCM13
 <br>
 
 For a glossary of clinical terms and Zynx product offerings, [click here](./clinical-glossary.md).
