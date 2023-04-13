@@ -184,17 +184,17 @@ For instructions about using the Postman GUI REST API tool, [click here](./gui-a
 ###### Zynx's Value Set for Content Item Types
 [Click here](./content_item_details.md) for detailed funtionality within given content item types.
    
-| Text or Display Value   | Code Value    |   Explanation |
+| FHIR Display Value \ [Description]   | Code Value    |   Explanation |
 | :---------------- | :-----------: | :---------- |
 | Section       | 2             | A category used to organize order items ([view full explanation](https://github.com/zynxhealth/documentation/blob/master/clinical-glossary.md#section))|
 | Orderable (Med)  | 3          | Drug names that can be expressed as medication names or dispensable products ([view full explanation](https://github.com/zynxhealth/documentation/blob/master/clinical-glossary.md#medication))|
-| Reminder (Patient Engagement) | 4          | An evidence-based note to the clinician at the point of care ([view full explanation](https://github.com/zynxhealth/documentation/blob/master/clinical-glossary.md#reminder))|
+| Reminder \ [Patient Engagement] | 4          | An evidence-based note to the clinician at the point of care ([view full explanation](https://github.com/zynxhealth/documentation/blob/master/clinical-glossary.md#reminder))|
 |Orderable | 5| Non-medication items that can be ordered by a clinician (e.g. nursing orders, laboratory tests, radiology, etc) ([view full explanation](https://github.com/zynxhealth/documentation/blob/master/clinical-glossary.md#orderable))|
 |Problem|8| A condition experienced by a patient that can be treated in a clinical care setting ([view full explanation](https://github.com/zynxhealth/documentation/blob/master/clinical-glossary.md#problem))|
-|Outcome (Goal)|10| Measurable patient-centered conditions/states, behaviors, or perceptions in response to interdisciplinary interventions ([view full explanation](https://github.com/zynxhealth/documentation/blob/master/clinical-glossary.md#outcome))|
+|Outcome \ [Goal]|10| Measurable patient-centered conditions/states, behaviors, or perceptions in response to interdisciplinary interventions ([view full explanation](https://github.com/zynxhealth/documentation/blob/master/clinical-glossary.md#outcome))|
 |Activity|12|A specific action that the interdisciplinary care team carries out to address a patient problem ([view full explanation](https://github.com/zynxhealth/documentation/blob/master/clinical-glossary.md#activity))|
-|Activitylet (Activity Detail)|15|Further description or clarification of key concepts for an activity in a plan of care.
-|Activity Frequency|16|Frequency for an activity in a plan of care.
+|Activitylet \ [Activity Detail]|15|Further description or clarification of key concepts for an activity in a plan of care.
+|Frequency \ [Activity Frequency]|16|Frequency for an activity in a plan of care.
 
 ### <a id="stayupdated"></a>4. Stay Updated
 Since the Zynx Health API is actively being developed, follow this page to keep up-to-date with the changes.
