@@ -1,6 +1,8 @@
 ## Functionality by Content Type \ Content Item Type
 <br>
-ZynxCare <br>
+
+### ZynxCare<br>
+
 Includes ZynxCare Extended, ZynxCare for Home Health, and ZynxCare for Rehabilitation <br>
 
 | FHIR Display Value \ [Description]   | Code Value    |   Functionality|   Example|
@@ -23,7 +25,9 @@ Includes ZynxCare Extended, ZynxCare for Home Health, and ZynxCare for Rehabilit
 |Activitylet \ [Activity Detail]|15|Semantic ID | ``` <code> <coding> <system value="http://www.zynxhealth.com/codings/semantic-id"/> <code value=""/> ```|
 |Activitylet \ [Activity Detail]|15|Unique ID | ``` <code> <coding> <system value="http://www.zynxhealth.com/codings/unique-id"/> <code value=""/> ```|
 <br>
-ZynxCare for Chronic Conditions Management<br>
+
+### ZynxCare for Chronic Conditions Management<br>
+
 
 | FHIR Display Value \ [Description]   | Code Value    |   Functionality|   Example|
 | :---------------- | :-----------: | :---------- | :---------- |
@@ -40,7 +44,8 @@ ZynxCare for Chronic Conditions Management<br>
 |Activitylet \ [Activity Detail]|15|Semantic ID | ``` <code> <coding> <system value="http://www.zynxhealth.com/codings/semantic-id"/> <code value=""/> ```|
 |Activitylet \ [Activity Detail]|15|Unique ID | ``` <code> <coding> <system value="http://www.zynxhealth.com/codings/unique-id"/> <code value=""/> ```|
 <br>
-ZynxOrder
+
+### ZynxOrder<br>
 
 | FHIR Display Value \ [Description]  | Code Value    |   Functionality|   Example|
 | :---------------- | :-----------: | :---------- | :---------- |
@@ -53,7 +58,8 @@ ZynxOrder
 |Orderable (Med)|3|Gold Key\Key Clinical Process| ``` <reason> <coding> <system value="http://www.zynxhealth.com/codings/key-clinical-processes"/> ```|
 |Orderable|5|Gold Key\Key Clinical Process| ``` <reason> <coding> <system value="http://www.zynxhealth.com/codings/key-clinical-processes"/> ```|
 <br>
-Custom Order Sets<br>
+
+### Custom Order Sets<br>
 
 | FHIR Display Value \ [Description]  | Code Value    |   Functionality|   Example|
 | :---------------- | :-----------: | :---------- | :---------- |
@@ -69,7 +75,8 @@ Custom Order Sets<br>
 |Orderable|5|Additional Info| ``` <documentation> <type value="documentation"></type> <display value="additional info text"> </display> </documentation> ```|
 |Orderable|5|Gold Key\Key Clinical Process| ``` <reason> <coding> <system value="http://www.zynxhealth.com/codings/key-clinical-processes"/> ```|
 <br>
-Custom Plans of Care<br>
+
+### Custom Plans of Care<br>
 
 | FHIR Display Value \ [Description]  | Code Value    |   Functionality|   Example|
 | :---------------- | :-----------: | :---------- | :---------- |
