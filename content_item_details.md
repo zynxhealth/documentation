@@ -57,6 +57,7 @@ Includes ZynxCare Extended, ZynxCare for Home Health, and ZynxCare for Rehabilit
 |Reminder|4|Unique ID | ``` <code> <coding> <system value="http://www.zynxhealth.com/codings/unique-id"/> <code value=""/> ```|
 |Orderable (Med)|3|Gold Key\Key Clinical Process| ``` <reason> <coding> <system value="http://www.zynxhealth.com/codings/key-clinical-processes"/> ```|
 |Orderable|5|Gold Key\Key Clinical Process| ``` <reason> <coding> <system value="http://www.zynxhealth.com/codings/key-clinical-processes"/> ```|
+|Orderable|5|Loinc codes| ``` <code><coding><system value="http://loinc.org"></system><code value="#####-#"></code></coding></code> ```|
 <br>
 
 ### Custom Order Sets<br>
@@ -74,6 +75,7 @@ Includes ZynxCare Extended, ZynxCare for Home Health, and ZynxCare for Rehabilit
 |Orderable (Med)|3|Gold Key\Key Clinical Process| ``` <reason> <coding> <system value="http://www.zynxhealth.com/codings/key-clinical-processes"/> ```|
 |Orderable|5|Additional Info| ``` <documentation> <type value="documentation"></type> <display value="additional info text"> </display> </documentation> ```|
 |Orderable|5|Gold Key\Key Clinical Process| ``` <reason> <coding> <system value="http://www.zynxhealth.com/codings/key-clinical-processes"/> ```|
+|Orderable|5|Loinc codes| ``` <code><coding><system value="http://loinc.org"></system><code value="#####-#"></code></coding></code> ```|
 <br>
 
 ### Custom Plans of Care<br>
