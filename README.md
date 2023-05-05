@@ -15,6 +15,7 @@ The Zynx Health API provides access to Zynx Content in the FHIR standard format.
    1. [Get your API Key](#getkey)
    2. [Make API Calls](#makecalls)
    3. [Stay Updated](#stayupdated)
+5. [Functionality by Content Type \ Content Item Type](./content_item_details.md)
 <br><br>
 
 ## <a id="new"></a>What's New
