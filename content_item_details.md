@@ -26,7 +26,7 @@ Includes ZynxCare Extended, ZynxCare for Home Health, and ZynxCare for Rehabilit
 |Activitylet \ [Activity Detail]|15|Unique ID | ``` <code> <coding> <system value="http://www.zynxhealth.com/codings/unique-id"/> <code value=""/> ```|
 <br>
 
-### ZynxCare for Chronic Conditions Management<br>
+### Zynx for Chronic Care Management<br>
 
 
 | FHIR Display Value \ [Description]   | Code Value    |   Functionality|   Example|
