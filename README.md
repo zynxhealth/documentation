@@ -21,25 +21,18 @@ The Zynx Health API provides access to Zynx Content in the FHIR standard format.
 ## <a id="new"></a>What's New
 **Date**|**Description**
 :-----:|:-----:
-2023.06.29|Production Release
+2023.11.08|Production Release
 
 ## <a id="prod"></a>Production Release Notes
-### Content Additions – Last updated Q1, 2023<br>
-•  ZynxCare<br>
-   ·  New content update containing 5 plans of care<br>
-   <br>
-•  ZynxOrder <br>
-   ·  New content update containing 7 plans of care<br>
-   <br>
-### Content Updates – Last updated Q1, 2023<br>
+### Content Updates – Last updated Q3, 2023<br>
 •  ZynxCare<br> 
 •  ZynxCare Extended<br>
 •  ZynxCare for Home Health<br>
 •  ZynxCare for Rehabilitation<br>
 •  ZynxOrder<br>
 <br>
-### Zynx for Chronic Care Management Content Updates – Last updated 2023.06.29<br>
-•  Content update containing 20 plans of care
+### Zynx for Chronic Care Management Content Updates – Last updated 2023.11.08<br>
+•  Content update containing 27 plans of care
 <br>
 
 [Conformance Information](conformance.md)
